@@ -1,2 +1,388 @@
 date,station,tree_total,tree_level,top_tree_species,weed_total,weed_level,top_weed_species,grass_total,grass_level,top_grass_species,mold_total,mold_level,top_mold_species,weather_notes
+2021-04-16,Allergy Clinic,0.0,Low,,0.0,Low,,0.0,Low,,0.0,Low,,
+2021-04-20,Allergy Clinic,138.0,High,"Willow; Juniper family, Cedar; Elm",0.0,Low,,2.0,Low,"Grass Family, all types",0.0,Low,,
+2021-04-22,Allergy Clinic,183.0,High,"Willow; Alder; Juniper family, Cedar",0.0,Low,,15.0,Medium,"Grass Family, all types",0.0,Low,,
+2021-04-23,Allergy Clinic,0.0,Low,,0.0,Low,,0.0,Low,,0.0,Low,,
+2021-04-27,Allergy Clinic,27.0,Medium,Willow; Oak; Ash,0.0,Low,,9.0,Medium,"Grass Family, all types",0.0,Low,,
+2021-04-28,Allergy Clinic,50.0,Medium,Willow; Hemlock; Pine Family with air bladders,0.0,Low,,15.0,Medium,"Grass Family, all types",0.0,Low,,
+2021-04-29,Allergy Clinic,70.0,Medium,"Willow; Maple, Box elder; Alder",0.0,Low,,14.0,Medium,"Grass Family, all types",0.0,Low,,
+2021-05-04,Allergy Clinic,30.0,Medium,Pine Family with air bladders; Willow; Elm,0.0,Low,,4.0,Low,"Grass Family, all types",0.0,Low,,
+2021-05-05,Allergy Clinic,55.0,Medium,"Willow; Pine Family with air bladders; Poplar, Cottonwood, Aspen",0.0,Low,,1.0,Low,"Grass Family, all types",0.0,Low,,
+2021-05-11,Allergy Clinic,59.0,Medium,"Pine Family with air bladders; Willow; Poplar, Cottonwood, Aspen",0.0,Low,,7.0,Medium,"Grass Family, all types",0.0,Low,,
+2021-05-12,Allergy Clinic,59.0,Medium,"Juniper family, Cedar; Pine Family with air bladders; Maple, Box elder",0.0,Low,,5.0,Medium,"Grass Family, all types",0.0,Low,,
+2021-05-13,Allergy Clinic,89.0,Medium,"Juniper family, Cedar; Willow; Maple, Box elder",0.0,Low,,6.0,Medium,"Grass Family, all types",0.0,Low,,
+2021-05-18,Allergy Clinic,45.0,Medium,Pine Family with air bladders; All identified tree pollen not counted elsewhere; Oak,0.0,Low,,9.0,Medium,"Grass Family, all types",0.0,Low,,
+2021-05-19,Allergy Clinic,31.0,Medium,Pine Family with air bladders; Ash; Oak,0.0,Low,,0.0,Low,,0.0,Low,,
+2021-05-20,Allergy Clinic,21.0,Medium,"Pine Family with air bladders; Maple, Box elder; All identified tree pollen not counted elsewhere",0.0,Low,,3.0,Low,"Grass Family, all types",0.0,Low,,
+2021-05-25,Allergy Clinic,11.0,Low,"Pine Family with air bladders; All identified tree pollen not counted elsewhere; Juniper family, Cedar",0.0,Low,,1.0,Low,"Grass Family, all types",0.0,Low,,
+2021-05-26,Allergy Clinic,4.0,Low,"All identified tree pollen not counted elsewhere; Willow; Juniper family, Cedar",0.0,Low,,5.0,Medium,"Grass Family, all types",0.0,Low,,
+2021-05-27,Allergy Clinic,16.0,Medium,"Juniper family, Cedar; Pine Family with air bladders; All identified tree pollen not counted elsewhere",0.0,Low,,38.0,High,"Grass Family, all types",0.0,Low,,
+2021-06-02,Allergy Clinic,22.0,Medium,"Oak; Juniper family, Cedar; Alder",0.0,Low,,16.0,Medium,"Grass Family, all types",0.0,Low,,
+2021-06-03,Allergy Clinic,29.0,Medium,"Juniper family, Cedar; Alder; Elm",0.0,Low,,28.0,High,"Grass Family, all types",0.0,Low,,
+2021-06-08,Allergy Clinic,4.0,Low,All identified tree pollen not counted elsewhere; Pine Family with air bladders,0.0,Low,,21.0,High,"Grass Family, all types",0.0,Low,,
+2021-06-09,Allergy Clinic,32.0,Medium,"Alder; Juniper family, Cedar; All identified tree pollen not counted elsewhere",0.0,Low,,28.0,High,"Grass Family, all types",0.0,Low,,
+2021-06-10,Allergy Clinic,18.0,Medium,"Juniper family, Cedar; All identified tree pollen not counted elsewhere; Pine Family with air bladders",0.0,Low,,26.0,High,"Grass Family, all types",0.0,Low,,
+2021-06-15,Allergy Clinic,29.0,Medium,"Juniper family, Cedar; Poplar, Cottonwood, Aspen; All identified tree pollen not counted elsewhere",0.0,Low,,30.0,High,"Grass Family, all types",0.0,Low,,
+2021-06-16,Allergy Clinic,6.0,Low,"Juniper family, Cedar; All identified tree pollen not counted elsewhere; Pine Family with air bladders",0.0,Low,,15.0,Medium,"Grass Family, all types",0.0,Low,,
+2021-06-17,Allergy Clinic,7.0,Low,"All identified tree pollen not counted elsewhere; Juniper family, Cedar; Pine Family with air bladders",0.0,Low,,14.0,Medium,"Grass Family, all types",0.0,Low,,
+2021-06-22,Allergy Clinic,21.0,Medium,"Juniper family, Cedar; All identified tree pollen not counted elsewhere; Alder",4.0,Low,All identified weed pollen not counted elsewhere,65.0,High,"Grass Family, all types",0.0,Low,,
+2021-06-23,Allergy Clinic,9.0,Low,"Willow; Walnut, Butternut; Juniper family, Cedar",2.0,Low,All identified weed pollen not counted elsewhere,46.0,High,"Grass Family, all types",0.0,Low,,
+2021-06-24,Allergy Clinic,12.0,Low,"Walnut, Butternut; Juniper family, Cedar; Elm",6.0,Low,All identified weed pollen not counted elsewhere,26.0,High,"Grass Family, all types",0.0,Low,,
+2021-06-29,Allergy Clinic,3.0,Low,"Pine Family with air bladders; Juniper family, Cedar",2.0,Low,All identified weed pollen not counted elsewhere,10.0,Medium,"Grass Family, all types",0.0,Low,,
+2021-06-30,Allergy Clinic,34.0,Medium,"Pine Family with air bladders; Juniper family, Cedar; Willow",28.0,Medium,"All identified weed pollen not counted elsewhere; Sheep Sorrel, Dock; Plantain",35.0,High,"Grass Family, all types",0.0,Low,,
+2021-07-01,Allergy Clinic,6.0,Low,"Juniper family, Cedar; Pine Family with air bladders",7.0,Low,"Plantain; All identified weed pollen not counted elsewhere; Aster, Cocklebur, etc.",1.0,Low,"Grass Family, all types",0.0,Low,,
+2021-07-13,Allergy Clinic,0.0,Low,,6.0,Low,"All identified weed pollen not counted elsewhere; Goosefoot, Lamb's Quarters, Pigweed, Amaranth, Saltbush, Russian Thistle",3.0,Low,"Grass Family, all types",0.0,Low,,
+2021-07-14,Allergy Clinic,3.0,Low,"Poplar, Cottonwood, Aspen; Pine Family with air bladders",9.0,Low,"All identified weed pollen not counted elsewhere; Sage, Wormwood",3.0,Low,"Grass Family, all types",0.0,Low,,
+2021-07-15,Allergy Clinic,2.0,Low,Pine Family with air bladders; Alder,7.0,Low,"All identified weed pollen not counted elsewhere; Goosefoot, Lamb's Quarters, Pigweed, Amaranth, Saltbush, Russian Thistle",2.0,Low,"Grass Family, all types",0.0,Low,,
+2021-07-19,Allergy Clinic,0.0,Low,,2.0,Low,"Goosefoot, Lamb's Quarters, Pigweed, Amaranth, Saltbush, Russian Thistle; All identified weed pollen not counted elsewhere",1.0,Low,"Grass Family, all types",0.0,Low,,
+2021-07-20,Allergy Clinic,1.0,Low,"Juniper family, Cedar",6.0,Low,All identified weed pollen not counted elsewhere,1.0,Low,"Grass Family, all types",0.0,Low,,
+2021-07-23,Allergy Clinic,0.0,Low,,4.0,Low,All identified weed pollen not counted elsewhere,0.0,Low,,0.0,Low,,
+2021-07-27,Allergy Clinic,0.0,Low,,5.0,Low,"All identified weed pollen not counted elsewhere; Goosefoot, Lamb's Quarters, Pigweed, Amaranth, Saltbush, Russian Thistle",1.0,Low,"Grass Family, all types",0.0,Low,,
+2021-07-28,Allergy Clinic,3.0,Low,"Poplar, Cottonwood, Aspen",3.0,Low,"Goosefoot, Lamb's Quarters, Pigweed, Amaranth, Saltbush, Russian Thistle",3.0,Low,"Grass Family, all types",0.0,Low,,
+2022-01-21,Allergy Clinic,95.0,High,"Birch; Poplar, Cottonwood, Aspen; Alder",0.0,Low,,0.0,Low,,0.0,Low,,
+2022-02-01,Allergy Clinic,5.0,Low,"Birch; Poplar, Cottonwood, Aspen; Maple, Box elder",0.0,Low,,0.0,Low,,0.0,Low,,
+2022-02-02,Allergy Clinic,1.0,Low,Birch,0.0,Low,,0.0,Low,,0.0,Low,,
+2022-02-06,Allergy Clinic,18.0,Medium,"Poplar, Cottonwood, Aspen; Juniper family, Cedar; Hazelnut",0.0,Low,,0.0,Low,,0.0,Low,,
+2022-02-07,Allergy Clinic,4.0,Low,"Poplar, Cottonwood, Aspen; Juniper family, Cedar",0.0,Low,,0.0,Low,,0.0,Low,,
+2022-02-09,Allergy Clinic,9.0,Low,"Juniper family, Cedar; Poplar, Cottonwood, Aspen; Birch",0.0,Low,,0.0,Low,,0.0,Low,,
+2022-02-14,Allergy Clinic,31.0,Medium,"Juniper family, Cedar; Elm; Willow",0.0,Low,,0.0,Low,,0.0,Low,,
+2022-02-15,Allergy Clinic,9.0,Low,"Juniper family, Cedar; Walnut, Butternut; Willow",0.0,Low,,0.0,Low,,0.0,Low,,
+2022-02-16,Allergy Clinic,35.0,Medium,"Juniper family, Cedar; Walnut, Butternut; Hickory, Pecan",0.0,Low,,0.0,Low,,0.0,Low,,
+2022-02-21,Allergy Clinic,24.0,Medium,"Juniper family, Cedar; Ash; All identified tree pollen not counted elsewhere",0.0,Low,,0.0,Low,,0.0,Low,,
+2022-02-22,Allergy Clinic,25.0,Medium,"Juniper family, Cedar; Birch; Willow",0.0,Low,,0.0,Low,,0.0,Low,,
+2022-03-01,Allergy Clinic,53.0,Medium,"Juniper family, Cedar; Poplar, Cottonwood, Aspen; Ash",0.0,Low,,0.0,Low,,0.0,Low,,
+2022-03-02,Allergy Clinic,15.0,Medium,"Juniper family, Cedar; All identified tree pollen not counted elsewhere",0.0,Low,,0.0,Low,,0.0,Low,,
+2022-03-03,Allergy Clinic,19.0,Medium,"Juniper family, Cedar; Ash; Willow",0.0,Low,,0.0,Low,,0.0,Low,,
+2022-03-07,Allergy Clinic,322.0,High,"Juniper family, Cedar; Alder; All identified tree pollen not counted elsewhere",0.0,Low,,0.0,Low,,0.0,Low,,
+2022-03-11,Allergy Clinic,0.0,Low,,0.0,Low,,0.0,Low,,0.0,Low,,
+2022-03-12,Allergy Clinic,233.0,High,"Juniper family, Cedar; Alder; Elm",0.0,Low,,0.0,Low,,0.0,Low,,
+2022-03-14,Allergy Clinic,137.0,High,"Juniper family, Cedar; Elm; Alder",0.0,Low,,0.0,Low,,0.0,Low,,
+2022-03-15,Allergy Clinic,121.0,High,"Juniper family, Cedar; Elm; Alder",0.0,Low,,0.0,Low,,0.0,Low,,
+2022-03-16,Allergy Clinic,175.0,High,"Juniper family, Cedar; All identified tree pollen not counted elsewhere; Alder",0.0,Low,,0.0,Low,,0.0,Low,,
+2022-03-21,Allergy Clinic,195.0,High,"All identified tree pollen not counted elsewhere; Juniper family, Cedar; Elm",0.0,Low,,0.0,Low,,0.0,Low,,rainy
+2022-03-22,Allergy Clinic,198.0,High,"All identified tree pollen not counted elsewhere; Juniper family, Cedar; Elm",0.0,Low,,0.0,Low,,0.0,Low,,
+2022-03-23,Allergy Clinic,250.0,High,"Juniper family, Cedar; Elm; Poplar, Cottonwood, Aspen",0.0,Low,,0.0,Low,,0.0,Low,,
+2022-03-28,Allergy Clinic,103.0,High,Alder; Birch; All identified tree pollen not counted elsewhere,0.0,Low,,1.0,Low,"Grass Family, all types",0.0,Low,,
+2022-03-30,Allergy Clinic,58.0,Medium,Birch; Hemlock; All identified tree pollen not counted elsewhere,0.0,Low,,3.0,Low,"Grass Family, all types",0.0,Low,,
+2022-04-01,Allergy Clinic,242.0,High,"Birch; Elm; Juniper family, Cedar",0.0,Low,,4.0,Low,"Grass Family, all types",0.0,Low,,
+2022-04-05,Allergy Clinic,69.0,Medium,Hemlock; Birch; All identified tree pollen not counted elsewhere,0.0,Low,,1.0,Low,"Grass Family, all types",0.0,Low,,
+2022-04-06,Allergy Clinic,41.0,Medium,All identified tree pollen not counted elsewhere; Hemlock; Birch,0.0,Low,,1.0,Low,"Grass Family, all types",0.0,Low,,
+2022-04-07,Allergy Clinic,156.0,High,Birch; Willow; All identified tree pollen not counted elsewhere,0.0,Low,,1.0,Low,"Grass Family, all types",0.0,Low,,
+2022-04-11,Allergy Clinic,25.0,Medium,"Poplar, Cottonwood, Aspen; Ash; Willow",0.0,Low,,2.0,Low,"Grass Family, all types",0.0,Low,,"significant snow, then turned sunny and warm"
+2022-04-12,Allergy Clinic,22.0,Medium,"Poplar, Cottonwood, Aspen; Ash; Sycamore, Plane-tree",0.0,Low,,2.0,Low,"Grass Family, all types",0.0,Low,,intermittent rain & hail
+2022-04-13,Allergy Clinic,34.0,Medium,"Poplar, Cottonwood, Aspen; Juniper family, Cedar; Ash",0.0,Low,,1.0,Low,"Grass Family, all types",0.0,Low,,"hail, rain, cold"
+2022-04-17,Allergy Clinic,36.0,Medium,"Poplar, Cottonwood, Aspen; All identified tree pollen not counted elsewhere; Elm",0.0,Low,,0.0,Low,,0.0,Low,,
+2022-04-18,Allergy Clinic,67.0,Medium,Elm; All identified tree pollen not counted elsewhere; Willow,0.0,Low,,3.0,Low,"Grass Family, all types",0.0,Low,,
+2022-04-20,Allergy Clinic,36.0,Medium,"Poplar, Cottonwood, Aspen; All identified tree pollen not counted elsewhere; Elm",0.0,Low,,1.0,Low,"Grass Family, all types",0.0,Low,,
+2022-04-22,Allergy Clinic,0.0,Low,,0.0,Low,,0.0,Low,,0.0,Low,,
+2022-04-25,Allergy Clinic,47.0,Medium,"Poplar, Cottonwood, Aspen; Maple, Box elder; Ash",0.0,Low,,0.0,Low,,0.0,Low,,Intermittent rain
+2022-04-26,Allergy Clinic,45.0,Medium,"Ash; All identified tree pollen not counted elsewhere; Hickory, Pecan",0.0,Low,,3.0,Low,"Grass Family, all types",0.0,Low,,mostly clear
+2022-04-27,Allergy Clinic,48.0,Medium,"Ash; Maple, Box elder; Poplar, Cottonwood, Aspen",0.0,Low,,0.0,Low,,0.0,Low,,
+2022-05-02,Allergy Clinic,27.0,Medium,"All identified tree pollen not counted elsewhere; Oak; Maple, Box elder",0.0,Low,,3.0,Low,"Grass Family, all types",0.0,Low,,
+2022-05-03,Allergy Clinic,7.0,Low,"Pine Family with air bladders; Maple, Box elder; Willow",0.0,Low,,1.0,Low,"Grass Family, all types",0.0,Low,,
+2022-05-04,Allergy Clinic,44.0,Medium,Willow; All identified tree pollen not counted elsewhere; Ash,0.0,Low,,0.0,Low,,0.0,Low,,
+2022-05-08,Allergy Clinic,8.0,Low,"Ash; Pine Family with air bladders; Maple, Box elder",0.0,Low,,0.0,Low,,0.0,Low,,"intermittent rain, brief hail"
+2022-05-09,Allergy Clinic,9.0,Low,Pine Family with air bladders; All identified tree pollen not counted elsewhere; Mulberry,0.0,Low,,0.0,Low,,0.0,Low,,"rainy, cloudy"
+2022-05-11,Allergy Clinic,47.0,Medium,"Pine Family with air bladders; Maple, Box elder; Hickory, Pecan",0.0,Low,,3.0,Low,"Grass Family, all types",0.0,Low,,sunny & warm
+2022-05-15,Allergy Clinic,10.0,Low,"Willow; Maple, Box elder; All identified tree pollen not counted elsewhere",0.0,Low,,2.0,Low,"Grass Family, all types",0.0,Low,,
+2022-05-16,Allergy Clinic,56.0,Medium,"Pine Family with air bladders; All identified tree pollen not counted elsewhere; Walnut, Butternut",0.0,Low,,5.0,Medium,"Grass Family, all types",0.0,Low,,
+2022-05-17,Allergy Clinic,28.0,Medium,Pine Family with air bladders; Willow; Ash,0.0,Low,,4.0,Low,"Grass Family, all types",0.0,Low,,
+2022-05-25,Allergy Clinic,35.0,Medium,Pine Family with air bladders; All identified tree pollen not counted elsewhere; Elm,0.0,Low,,8.0,Medium,"Grass Family, all types",0.0,Low,,
+2022-06-01,Allergy Clinic,34.0,Medium,"All identified tree pollen not counted elsewhere; Pine Family with air bladders; Juniper family, Cedar",0.0,Low,,18.0,Medium,"Grass Family, all types",0.0,Low,,
+2022-06-02,Allergy Clinic,33.0,Medium,"All identified tree pollen not counted elsewhere; Pine Family with air bladders; Juniper family, Cedar",0.0,Low,,19.0,Medium,"Grass Family, all types",0.0,Low,,
+2022-06-03,Allergy Clinic,34.0,Medium,"Juniper family, Cedar; Willow; Pine Family with air bladders",0.0,Low,,24.0,High,"Grass Family, all types",0.0,Low,,
+2022-06-05,Allergy Clinic,17.0,Medium,"Poplar, Cottonwood, Aspen; All identified tree pollen not counted elsewhere; Pine Family with air bladders",0.0,Low,,7.0,Medium,"Grass Family, all types",0.0,Low,,
+2022-06-06,Allergy Clinic,17.0,Medium,"Juniper family, Cedar; All identified tree pollen not counted elsewhere; Walnut, Butternut",0.0,Low,,12.0,Medium,"Grass Family, all types",0.0,Low,,
+2022-06-07,Allergy Clinic,43.0,Medium,"Juniper family, Cedar; Hickory, Pecan; Ash",1.0,Low,Plantain,46.0,High,"Grass Family, all types",0.0,Low,,
+2022-06-14,Allergy Clinic,11.0,Low,"All identified tree pollen not counted elsewhere; Juniper family, Cedar; Elm",0.0,Low,,15.0,Medium,"Grass Family, all types",0.0,Low,,
+2022-06-15,Allergy Clinic,26.0,Medium,"All identified tree pollen not counted elsewhere; Ash; Juniper family, Cedar",9.0,Low,All identified weed pollen not counted elsewhere,48.0,High,"Grass Family, all types",0.0,Low,,
+2022-06-16,Allergy Clinic,43.0,Medium,"All identified tree pollen not counted elsewhere; Juniper family, Cedar; Willow",9.0,Low,All identified weed pollen not counted elsewhere,56.0,High,"Grass Family, all types",0.0,Low,,
+2022-06-21,Allergy Clinic,11.0,Low,"All identified tree pollen not counted elsewhere; Ash; Hickory, Pecan",2.0,Low,"Nettle family, Pellitory",37.0,High,"Grass Family, all types",0.0,Low,,
+2022-06-22,Allergy Clinic,11.0,Low,"All identified tree pollen not counted elsewhere; Juniper family, Cedar; Ash",22.0,Medium,"Goosefoot, Lamb's Quarters, Pigweed, Amaranth, Saltbush, Russian Thistle; Sheep Sorrel, Dock; Plantain",64.0,High,"Grass Family, all types",0.0,Low,,
+2022-06-23,Allergy Clinic,6.0,Low,Willow; Ash; Oak,15.0,Medium,All identified weed pollen not counted elsewhere,30.0,High,"Grass Family, all types",0.0,Low,,
+2022-06-28,Allergy Clinic,0.0,Low,,28.0,Medium,All identified weed pollen not counted elsewhere,67.0,High,"Grass Family, all types",0.0,Low,,
+2022-06-29,Allergy Clinic,0.0,Low,,21.0,Medium,All identified weed pollen not counted elsewhere,6.0,Medium,"Grass Family, all types",0.0,Low,,
+2022-06-30,Allergy Clinic,9.0,Low,"Juniper family, Cedar",2.0,Low,All identified weed pollen not counted elsewhere,58.0,High,"Grass Family, all types",0.0,Low,,
+2022-07-06,Allergy Clinic,2.0,Low,Alder,3.0,Low,"Goosefoot, Lamb's Quarters, Pigweed, Amaranth, Saltbush, Russian Thistle; Plantain",5.0,Medium,"Grass Family, all types",0.0,Low,,
+2022-07-07,Allergy Clinic,2.0,Low,"Juniper family, Cedar",8.0,Low,All identified weed pollen not counted elsewhere,7.0,Medium,"Grass Family, all types",0.0,Low,,
+2022-07-11,Allergy Clinic,15.0,Medium,"Juniper family, Cedar; Pine Family with air bladders; Willow",19.0,Medium,All identified weed pollen not counted elsewhere; Plantain,44.0,High,"Grass Family, all types",0.0,Low,,
+2022-07-15,Allergy Clinic,8.0,Low,"Juniper family, Cedar; Willow; Pine Family with air bladders",17.0,Medium,All identified weed pollen not counted elsewhere; Plantain,40.0,High,"Grass Family, all types",0.0,Low,,
+2022-07-18,Allergy Clinic,18.0,Medium,"Willow; Juniper family, Cedar; All identified tree pollen not counted elsewhere",3.0,Low,"Aster, Cocklebur, etc.",26.0,High,"Grass Family, all types",0.0,Low,,
+2022-07-19,Allergy Clinic,6.0,Low,"Juniper family, Cedar; All identified tree pollen not counted elsewhere; Hickory, Pecan",12.0,Medium,"All identified weed pollen not counted elsewhere; Sheep Sorrel, Dock; Goosefoot, Lamb's Quarters, Pigweed, Amaranth, Saltbush, Russian Thistle",15.0,Medium,"Grass Family, all types",0.0,Low,,
+2022-07-25,Allergy Clinic,6.0,Low,"Juniper family, Cedar; Pine Family with air bladders; All identified tree pollen not counted elsewhere",4.0,Low,All identified weed pollen not counted elsewhere; Plantain,3.0,Low,"Grass Family, all types",0.0,Low,,
+2022-07-26,Allergy Clinic,9.0,Low,"Juniper family, Cedar; All identified tree pollen not counted elsewhere",10.0,Medium,All identified weed pollen not counted elsewhere,1.0,Low,"Grass Family, all types",0.0,Low,,
+2022-08-01,Allergy Clinic,15.0,Medium,"Juniper family, Cedar",14.0,Medium,All identified weed pollen not counted elsewhere,1.0,Low,"Grass Family, all types",0.0,Low,,
+2022-08-02,Allergy Clinic,3.0,Low,"Juniper family, Cedar",4.0,Low,All identified weed pollen not counted elsewhere,1.0,Low,"Grass Family, all types",0.0,Low,,
+2022-08-03,Allergy Clinic,3.0,Low,"Juniper family, Cedar",3.0,Low,All identified weed pollen not counted elsewhere,3.0,Low,"Grass Family, all types",0.0,Low,,
+2022-08-08,Allergy Clinic,20.0,Medium,"Juniper family, Cedar; Hemlock; Pine Family with air bladders",14.0,Medium,"Goosefoot, Lamb's Quarters, Pigweed, Amaranth, Saltbush, Russian Thistle; All identified weed pollen not counted elsewhere; Sheep Sorrel, Dock",8.0,Medium,"Grass Family, all types",0.0,Low,,
+2022-08-09,Allergy Clinic,11.0,Low,"Juniper family, Cedar; Hemlock",13.0,Medium,"Goosefoot, Lamb's Quarters, Pigweed, Amaranth, Saltbush, Russian Thistle; Aster, Cocklebur, etc.; Nettle family, Pellitory",4.0,Low,"Grass Family, all types",0.0,Low,,
+2022-08-10,Allergy Clinic,3.0,Low,"Juniper family, Cedar; Hornbeam/Hop hornbeam; Hemlock",27.0,Medium,"Goosefoot, Lamb's Quarters, Pigweed, Amaranth, Saltbush, Russian Thistle; Aster, Cocklebur, etc.; Sheep Sorrel, Dock",3.0,Low,"Grass Family, all types",0.0,Low,,
+2022-08-15,Allergy Clinic,6.0,Low,"Juniper family, Cedar",4.0,Low,"All identified weed pollen not counted elsewhere; Goosefoot, Lamb's Quarters, Pigweed, Amaranth, Saltbush, Russian Thistle",0.0,Low,,0.0,Low,,
+2022-08-16,Allergy Clinic,4.0,Low,"Juniper family, Cedar",4.0,Low,"All identified weed pollen not counted elsewhere; Goosefoot, Lamb's Quarters, Pigweed, Amaranth, Saltbush, Russian Thistle; Aster, Cocklebur, etc.",0.0,Low,,0.0,Low,,
+2022-08-23,Allergy Clinic,4.0,Low,"Juniper family, Cedar",3.0,Low,All identified weed pollen not counted elsewhere,1.0,Low,"Grass Family, all types",0.0,Low,,
+2023-01-12,Allergy Clinic,3.0,Low,"All identified tree pollen not counted elsewhere; Juniper family, Cedar",0.0,Low,,0.0,Low,,0.0,Low,,
+2023-01-17,Allergy Clinic,22.0,Medium,"Birch; Juniper family, Cedar; Hazelnut",0.0,Low,,0.0,Low,,0.0,Low,,
+2023-01-24,Allergy Clinic,5.0,Low,Ash; Hazelnut; All identified tree pollen not counted elsewhere,0.0,Low,,0.0,Low,,0.0,Low,,
+2023-01-30,Allergy Clinic,7.0,Low,"Birch; Poplar, Cottonwood, Aspen; Pine Family with air bladders",0.0,Low,,0.0,Low,,0.0,Low,,Cold but clear
+2023-02-06,Allergy Clinic,92.0,High,Birch; All identified tree pollen not counted elsewhere; Willow,0.0,Low,,0.0,Low,,0.0,Low,,
+2023-02-07,Allergy Clinic,9.0,Low,"Birch; Juniper family, Cedar; Elm",0.0,Low,,0.0,Low,,0.0,Low,,
+2023-02-13,Allergy Clinic,1.0,Low,Birch,0.0,Low,,0.0,Low,,0.0,Low,,
+2023-02-14,Allergy Clinic,0.0,Low,,0.0,Low,,0.0,Low,,0.0,Low,,
+2023-02-20,Allergy Clinic,30.0,Medium,"Juniper family, Cedar; Birch; All identified tree pollen not counted elsewhere",0.0,Low,,0.0,Low,,0.0,Low,,
+2023-02-21,Allergy Clinic,4.0,Low,"Juniper family, Cedar; Hickory, Pecan",0.0,Low,,0.0,Low,,0.0,Low,,
+2023-03-01,Allergy Clinic,40.0,Medium,"Juniper family, Cedar; Birch; Hazelnut",0.0,Low,,0.0,Low,,0.0,Low,,
+2023-03-06,Allergy Clinic,16.0,Medium,"Birch; Juniper family, Cedar; Willow",0.0,Low,,1.0,Low,"Grass Family, all types",0.0,Low,,
+2023-03-07,Allergy Clinic,10.0,Low,"Juniper family, Cedar; All identified tree pollen not counted elsewhere",0.0,Low,,0.0,Low,,0.0,Low,,
+2023-03-14,Allergy Clinic,150.0,High,"Juniper family, Cedar; Birch; Poplar, Cottonwood, Aspen",0.0,Low,,2.0,Low,"Grass Family, all types",0.0,Low,,
+2023-03-15,Allergy Clinic,54.0,Medium,"Juniper family, Cedar; All identified tree pollen not counted elsewhere; Poplar, Cottonwood, Aspen",0.0,Low,,0.0,Low,,0.0,Low,,
+2023-03-20,Allergy Clinic,45.0,Medium,"Juniper family, Cedar; Elm; Ash",0.0,Low,,4.0,Low,"Grass Family, all types",0.0,Low,,
+2023-03-21,Allergy Clinic,47.0,Medium,"Alder; Juniper family, Cedar; Ash",0.0,Low,,1.0,Low,"Grass Family, all types",0.0,Low,,
+2023-03-27,Allergy Clinic,26.0,Medium,Elm; All identified tree pollen not counted elsewhere; Willow,0.0,Low,,3.0,Low,"Grass Family, all types",0.0,Low,,
+2023-03-29,Allergy Clinic,68.0,Medium,"Ash; Elm; Juniper family, Cedar",0.0,Low,,4.0,Low,"Grass Family, all types",0.0,Low,,
+2023-03-30,Allergy Clinic,60.0,Medium,Ash; Elm; Alder,0.0,Low,,4.0,Low,"Grass Family, all types",0.0,Low,,
+2023-04-06,Allergy Clinic,9.0,Low,"All identified tree pollen not counted elsewhere; Poplar, Cottonwood, Aspen; Juniper family, Cedar",0.0,Low,,0.0,Low,,0.0,Low,,
+2023-04-10,Allergy Clinic,2.0,Low,"Juniper family, Cedar; Elm",0.0,Low,,0.0,Low,,0.0,Low,,
+2023-04-11,Allergy Clinic,12.0,Low,"Juniper family, Cedar; All identified tree pollen not counted elsewhere",0.0,Low,,1.0,Low,"Grass Family, all types",0.0,Low,,
+2023-04-12,Allergy Clinic,126.0,High,Ash; Elm; Alder,0.0,Low,,0.0,Low,,0.0,Low,,Sunny and warm
+2023-04-17,Allergy Clinic,7.0,Low,"Juniper family, Cedar; All identified tree pollen not counted elsewhere; Birch",0.0,Low,,1.0,Low,"Grass Family, all types",0.0,Low,,
+2023-04-18,Allergy Clinic,3.0,Low,"Juniper family, Cedar; Elm; All identified tree pollen not counted elsewhere",0.0,Low,,0.0,Low,,0.0,Low,,
+2023-04-19,Allergy Clinic,5.0,Low,"Juniper family, Cedar; Hornbeam/Hop hornbeam; Elm",0.0,Low,,1.0,Low,"Grass Family, all types",0.0,Low,,
+2023-05-10,Allergy Clinic,79.0,Medium,"Willow; Ash; Maple, Box elder",6.0,Low,"Nettle family, Pellitory",9.0,Medium,"Grass Family, all types",0.0,Low,,
+2023-05-11,Allergy Clinic,15.0,Medium,"All identified tree pollen not counted elsewhere; Ash; Juniper family, Cedar",0.0,Low,,5.0,Medium,"Grass Family, all types",0.0,Low,,
+2023-05-30,Allergy Clinic,7.0,Low,All identified tree pollen not counted elsewhere; Elm; Ash,0.0,Low,,7.0,Medium,"Grass Family, all types",0.0,Low,,
+2023-05-31,Allergy Clinic,17.0,Medium,All identified tree pollen not counted elsewhere; Pine Family with air bladders; Willow,0.0,Low,,3.0,Low,"Grass Family, all types",0.0,Low,,
+2023-06-04,Allergy Clinic,9.0,Low,Pine Family with air bladders; Ash; Elm,0.0,Low,,33.0,High,"Grass Family, all types",0.0,Low,,
+2023-06-06,Allergy Clinic,11.0,Low,"Juniper family, Cedar; Willow; Pine Family with air bladders",4.0,Low,All identified weed pollen not counted elsewhere,60.0,High,"Grass Family, all types",0.0,Low,,
+2023-06-07,Allergy Clinic,14.0,Low,"Willow; Pine Family with air bladders; Juniper family, Cedar",1.0,Low,All identified weed pollen not counted elsewhere,60.0,High,"Grass Family, all types",0.0,Low,,
+2023-06-08,Allergy Clinic,16.0,Medium,Pine Family with air bladders; All identified tree pollen not counted elsewhere,6.0,Low,All identified weed pollen not counted elsewhere,27.0,High,"Grass Family, all types",0.0,Low,,
+2023-06-12,Allergy Clinic,37.0,Medium,Pine Family with air bladders; All identified tree pollen not counted elsewhere; Ash,36.0,Medium,"Goosefoot, Lamb's Quarters, Pigweed, Amaranth, Saltbush, Russian Thistle; Aster, Cocklebur, etc.; All identified weed pollen not counted elsewhere",67.0,High,"Grass Family, all types",0.0,Low,,
+2023-06-14,Allergy Clinic,4.0,Low,"Pine Family with air bladders; All identified tree pollen not counted elsewhere; Juniper family, Cedar",1.0,Low,All identified weed pollen not counted elsewhere,7.0,Medium,"Grass Family, all types",0.0,Low,,
+2023-06-15,Allergy Clinic,7.0,Low,"Pine Family with air bladders; Maple, Box elder; Juniper family, Cedar",14.0,Medium,"All identified weed pollen not counted elsewhere; Sheep Sorrel, Dock",34.0,High,"Grass Family, all types",0.0,Low,,
+2023-06-20,Allergy Clinic,1.0,Low,"Juniper family, Cedar",44.0,Medium,"All identified weed pollen not counted elsewhere; Aster, Cocklebur, etc.",6.0,Medium,"Grass Family, all types",0.0,Low,,
+2023-06-21,Allergy Clinic,4.0,Low,"Pine Family with air bladders; Juniper family, Cedar; All identified tree pollen not counted elsewhere",8.0,Low,"All identified weed pollen not counted elsewhere; Goosefoot, Lamb's Quarters, Pigweed, Amaranth, Saltbush, Russian Thistle",50.0,High,"Grass Family, all types",0.0,Low,,
+2023-06-22,Allergy Clinic,5.0,Low,"Pine Family with air bladders; Juniper family, Cedar; Alder",57.0,High,"All identified weed pollen not counted elsewhere; Nettle family, Pellitory; Goosefoot, Lamb's Quarters, Pigweed, Amaranth, Saltbush, Russian Thistle",30.0,High,"Grass Family, all types",0.0,Low,,
+2023-06-28,Allergy Clinic,7.0,Low,"Pine Family with air bladders; Juniper family, Cedar",11.0,Medium,"All identified weed pollen not counted elsewhere; Nettle family, Pellitory",25.0,High,"Grass Family, all types",0.0,Low,,
+2023-07-03,Allergy Clinic,2.0,Low,"Pine Family with air bladders; Juniper family, Cedar",8.0,Low,All identified weed pollen not counted elsewhere,24.0,High,"Grass Family, all types",0.0,Low,,
+2023-07-05,Allergy Clinic,0.0,Low,"Juniper family, Cedar",8.0,Low,All identified weed pollen not counted elsewhere,18.0,Medium,"Grass Family, all types",0.0,Low,,
+2023-07-11,Allergy Clinic,0.0,Low,,7.0,Low,"Sheep Sorrel, Dock; Plantain; Nettle family, Pellitory",14.0,Medium,"Grass Family, all types",0.0,Low,,
+2023-07-12,Allergy Clinic,1.0,Low,Pine Family with air bladders,12.0,Medium,"All identified weed pollen not counted elsewhere; Sheep Sorrel, Dock; Plantain",5.0,Medium,"Grass Family, all types",0.0,Low,,
+2023-07-13,Allergy Clinic,1.0,Low,Pine Family with air bladders,9.0,Low,"Sheep Sorrel, Dock; Goosefoot, Lamb's Quarters, Pigweed, Amaranth, Saltbush, Russian Thistle; Aster, Cocklebur, etc.",6.0,Medium,"Grass Family, all types",0.0,Low,,
+2023-07-19,Allergy Clinic,0.0,Low,,22.0,Medium,All identified weed pollen not counted elsewhere,7.0,Medium,"Grass Family, all types",0.0,Low,,
+2023-07-24,Allergy Clinic,3.0,Low,"Pine Family with air bladders; Juniper family, Cedar",6.0,Low,All identified weed pollen not counted elsewhere,1.0,Low,"Grass Family, all types",0.0,Low,,
+2023-07-25,Allergy Clinic,1.0,Low,Pine Family with air bladders,3.0,Low,All identified weed pollen not counted elsewhere,1.0,Low,"Grass Family, all types",0.0,Low,,
+2023-07-26,Allergy Clinic,1.0,Low,Pine Family with air bladders,6.0,Low,All identified weed pollen not counted elsewhere,2.0,Low,"Grass Family, all types",0.0,Low,,
+2023-08-08,Allergy Clinic,1.0,Low,Pine Family with air bladders,8.0,Low,"All identified weed pollen not counted elsewhere; Plantain; Goosefoot, Lamb's Quarters, Pigweed, Amaranth, Saltbush, Russian Thistle",1.0,Low,"Grass Family, all types",0.0,Low,,
+2023-08-15,Allergy Clinic,0.0,Low,,16.0,Medium,"Aster, Cocklebur, etc.; All identified weed pollen not counted elsewhere; Goosefoot, Lamb's Quarters, Pigweed, Amaranth, Saltbush, Russian Thistle",1.0,Low,"Grass Family, all types",0.0,Low,,HOT
+2023-08-22,Allergy Clinic,0.0,Low,,10.0,Medium,"Nettle family, Pellitory; Sheep Sorrel, Dock; Aster, Cocklebur, etc.",1.0,Low,"Grass Family, all types",0.0,Low,,
+2023-08-30,Allergy Clinic,0.0,Low,,12.0,Medium,"Aster, Cocklebur, etc.; Goosefoot, Lamb's Quarters, Pigweed, Amaranth, Saltbush, Russian Thistle; Plantain",0.0,Low,,0.0,Low,,
+2023-09-05,Allergy Clinic,0.0,Low,,9.0,Low,"All identified weed pollen not counted elsewhere; Goosefoot, Lamb's Quarters, Pigweed, Amaranth, Saltbush, Russian Thistle; Plantain",2.0,Low,"Grass Family, all types",0.0,Low,,
+2023-09-12,Allergy Clinic,0.0,Low,,20.0,Medium,"Nettle family, Pellitory; Goosefoot, Lamb's Quarters, Pigweed, Amaranth, Saltbush, Russian Thistle; Aster, Cocklebur, etc.",0.0,Low,,0.0,Low,,
+2023-09-19,Allergy Clinic,2.0,Low,Pine Family with air bladders,22.0,Medium,"Aster, Cocklebur, etc.; Goosefoot, Lamb's Quarters, Pigweed, Amaranth, Saltbush, Russian Thistle; Sheep Sorrel, Dock",0.0,Low,,0.0,Low,,
+2023-09-26,Allergy Clinic,3.0,Low,Pine Family with air bladders,39.0,Medium,"Nettle family, Pellitory; Goosefoot, Lamb's Quarters, Pigweed, Amaranth, Saltbush, Russian Thistle; Aster, Cocklebur, etc.",0.0,Low,,0.0,Low,,"breezy, rain showers"
+2023-10-03,Allergy Clinic,1.0,Low,Pine Family with air bladders,20.0,Medium,"Goosefoot, Lamb's Quarters, Pigweed, Amaranth, Saltbush, Russian Thistle; Nettle family, Pellitory; Sheep Sorrel, Dock",0.0,Low,,0.0,Low,,intermittent rain
+2023-10-09,Allergy Clinic,0.0,Low,,26.0,Medium,"Goosefoot, Lamb's Quarters, Pigweed, Amaranth, Saltbush, Russian Thistle; Plantain; Nettle family, Pellitory",0.0,Low,,0.0,Low,,"cool, light showers"
+2023-10-17,Allergy Clinic,0.0,Low,,14.0,Medium,"Nettle family, Pellitory; Aster, Cocklebur, etc.; Sheep Sorrel, Dock",0.0,Low,,0.0,Low,,"rainy, cool"
+2024-02-08,Allergy Clinic,7.0,Low,"Elm; Willow; Poplar, Cottonwood, Aspen",0.0,Low,,0.0,Low,,0.0,Low,,
+2024-02-12,Allergy Clinic,1.0,Low,"Juniper family, Cedar",0.0,Low,,0.0,Low,,0.0,Low,,
+2024-02-13,Allergy Clinic,7.0,Low,"Poplar, Cottonwood, Aspen; Juniper family, Cedar; Elm",0.0,Low,,0.0,Low,,0.0,Low,,
+2024-02-16,Allergy Clinic,10.0,Low,"Elm; Juniper family, Cedar; Ash",0.0,Low,,0.0,Low,,0.0,Low,,
+2024-02-20,Allergy Clinic,35.0,Medium,"Elm; Juniper family, Cedar; Willow",0.0,Low,,0.0,Low,,0.0,Low,,
+2024-03-04,Allergy Clinic,0.0,Low,,0.0,Low,,0.0,Low,,0.0,Low,,
+2024-03-05,Allergy Clinic,151.0,High,"Juniper family, Cedar; Alder; Hazelnut",0.0,Low,,0.0,Low,,0.0,Low,,
+2024-03-12,Allergy Clinic,41.0,Medium,"Juniper family, Cedar; Alder; Poplar, Cottonwood, Aspen",0.0,Low,,0.0,Low,,0.0,Low,,
+2024-03-15,Allergy Clinic,446.0,High,"Alder; Juniper family, Cedar; Birch",0.0,Low,,0.0,Low,,0.0,Low,,"sunny & warm, very breezy"
+2024-03-18,Allergy Clinic,433.0,High,"Poplar, Cottonwood, Aspen; Juniper family, Cedar; Alder",0.0,Low,,0.0,Low,,0.0,Low,,
+2024-03-20,Allergy Clinic,436.0,High,"Poplar, Cottonwood, Aspen; Alder; Elm",0.0,Low,,0.0,Low,,0.0,Low,,
+2024-03-25,Allergy Clinic,6.0,Low,"Ash; Maple, Box elder",0.0,Low,,0.0,Low,,0.0,Low,,
+2024-03-26,Allergy Clinic,34.0,Medium,"Birch; Elm; Juniper family, Cedar",0.0,Low,,0.0,Low,,0.0,Low,,
+2024-03-27,Allergy Clinic,35.0,Medium,"Birch; Hemlock; Juniper family, Cedar",1.0,Low,All identified weed pollen not counted elsewhere,0.0,Low,,0.0,Low,,"windy, light showers"
+2024-03-28,Allergy Clinic,53.0,Medium,"Hemlock; Birch; Juniper family, Cedar",0.0,Low,,0.0,Low,,0.0,Low,,
+2024-03-30,Allergy Clinic,333.0,High,"Alder; Juniper family, Cedar; Birch",0.0,Low,,0.0,Low,,0.0,Low,,
+2024-04-01,Allergy Clinic,193.0,High,"Hemlock; Poplar, Cottonwood, Aspen; Ash",0.0,Low,,0.0,Low,,0.0,Low,,
+2024-04-02,Allergy Clinic,279.0,High,Willow; Birch; Hemlock,0.0,Low,,0.0,Low,,0.0,Low,,
+2024-04-09,Allergy Clinic,79.0,Medium,Willow; Ash; Hemlock,0.0,Low,,0.0,Low,,0.0,Low,,
+2024-04-10,Allergy Clinic,81.0,Medium,"Poplar, Cottonwood, Aspen; Hemlock; Birch",0.0,Low,,0.0,Low,,0.0,Low,,
+2024-04-11,Allergy Clinic,217.0,High,"Poplar, Cottonwood, Aspen; Willow; Juniper family, Cedar",0.0,Low,,0.0,Low,,0.0,Low,,
+2024-04-19,Allergy Clinic,196.0,High,"Maple, Box elder; Willow; Oak",0.0,Low,,1.0,Low,"Grass Family, all types",0.0,Low,,very warm
+2024-04-20,Allergy Clinic,169.0,High,"Maple, Box elder; Oak; Willow",1.0,Low,All identified weed pollen not counted elsewhere,5.0,Medium,"Grass Family, all types",0.0,Low,,warm and sunny to start but turned drizzly
+2024-04-23,Allergy Clinic,109.0,High,"Oak; Ash; Maple, Box elder",0.0,Low,,3.0,Low,"Grass Family, all types",0.0,Low,,very warm
+2024-04-26,Allergy Clinic,23.0,Medium,"Maple, Box elder; Pine Family with air bladders; Oak",1.0,Low,"Sheep Sorrel, Dock",3.0,Low,"Grass Family, all types",0.0,Low,,
+2024-04-29,Allergy Clinic,14.0,Low,"Willow; Oak; Maple, Box elder",0.0,Low,,1.0,Low,"Grass Family, all types",0.0,Low,,
+2024-05-01,Allergy Clinic,17.0,Medium,Pine Family with air bladders; Willow; Oak,5.0,Low,"Nettle family, Pellitory; Aster, Cocklebur, etc.; Sheep Sorrel, Dock",2.0,Low,"Grass Family, all types",0.0,Low,,ongoing rain
+2024-05-03,Allergy Clinic,53.0,Medium,"Pine Family with air bladders; Maple, Box elder; Willow",6.0,Low,"Nettle family, Pellitory; Goosefoot, Lamb's Quarters, Pigweed, Amaranth, Saltbush, Russian Thistle; Sheep Sorrel, Dock",3.0,Low,"Grass Family, all types",0.0,Low,,intermittent rain
+2024-05-06,Allergy Clinic,27.0,Medium,"Pine Family with air bladders; Maple, Box elder; Juniper family, Cedar",7.0,Low,"Nettle family, Pellitory; All identified weed pollen not counted elsewhere; Sheep Sorrel, Dock",3.0,Low,"Grass Family, all types",0.0,Low,,
+2024-05-09,Allergy Clinic,69.0,Medium,"Pine Family with air bladders; Juniper family, Cedar; Mulberry",13.0,Medium,"Aster, Cocklebur, etc.; Nettle family, Pellitory; Goosefoot, Lamb's Quarters, Pigweed, Amaranth, Saltbush, Russian Thistle",10.0,Medium,"Grass Family, all types",0.0,Low,,
+2024-05-10,Allergy Clinic,142.0,High,"Juniper family, Cedar; Pine Family with air bladders; All identified tree pollen not counted elsewhere",12.0,Medium,"Sheep Sorrel, Dock; Nettle family, Pellitory; Aster, Cocklebur, etc.",12.0,Medium,"Grass Family, all types",0.0,Low,,HOT! Reached over 90 today.
+2024-05-11,Allergy Clinic,88.0,Medium,"Pine Family with air bladders; Juniper family, Cedar; Beech",11.0,Medium,"Nettle family, Pellitory; Sheep Sorrel, Dock; Goosefoot, Lamb's Quarters, Pigweed, Amaranth, Saltbush, Russian Thistle",5.0,Medium,"Grass Family, all types",0.0,Low,,still hot
+2024-05-13,Allergy Clinic,66.0,Medium,All identified tree pollen not counted elsewhere; Pine Family with air bladders; Willow,0.0,Low,,15.0,Medium,"Grass Family, all types",0.0,Low,,"still very warm, and sunny"
+2024-05-14,Allergy Clinic,111.0,High,"Pine Family with air bladders; Juniper family, Cedar; Ash",16.0,Medium,"All identified weed pollen not counted elsewhere; Sheep Sorrel, Dock; Aster, Cocklebur, etc.",15.0,Medium,"Grass Family, all types",0.0,Low,,warm & sunny
+2024-05-15,Allergy Clinic,36.0,Medium,"Willow; Ash; Juniper family, Cedar",7.0,Low,"Nettle family, Pellitory; Sheep Sorrel, Dock; Aster, Cocklebur, etc.",5.0,Medium,"Grass Family, all types",0.0,Low,,
+2024-05-19,Allergy Clinic,23.0,Medium,"Pine Family with air bladders; Willow; Juniper family, Cedar",6.0,Low,"Sheep Sorrel, Dock; Plantain; Nettle family, Pellitory",5.0,Medium,"Grass Family, all types",0.0,Low,,overcast but warm
+2024-05-20,Allergy Clinic,20.0,Medium,"Pine Family with air bladders; Juniper family, Cedar; Willow",2.0,Low,"Sheep Sorrel, Dock",4.0,Low,"Grass Family, all types",0.0,Low,,
+2024-05-21,Allergy Clinic,11.0,Low,Willow; Pine Family with air bladders; Ash,7.0,Low,"Aster, Cocklebur, etc.; Sheep Sorrel, Dock; Nettle family, Pellitory",7.0,Medium,"Grass Family, all types",0.0,Low,,sunny at first then cool & rainy
+2024-05-24,Allergy Clinic,12.0,Low,"Pine Family with air bladders; Juniper family, Cedar; Willow",9.0,Low,"Nettle family, Pellitory; Sheep Sorrel, Dock; Plantain",8.0,Medium,"Grass Family, all types",0.0,Low,,"cool, breezy, a few showers"
+2024-05-27,Allergy Clinic,17.0,Medium,"Pine Family with air bladders; Juniper family, Cedar; All identified tree pollen not counted elsewhere",28.0,Medium,"Aster, Cocklebur, etc.; Sheep Sorrel, Dock; Nettle family, Pellitory",14.0,Medium,"Grass Family, all types",0.0,Low,,warm & sunny
+2024-05-29,Allergy Clinic,18.0,Medium,"Pine Family with air bladders; Juniper family, Cedar; Willow",4.0,Low,"Nettle family, Pellitory; Aster, Cocklebur, etc.",4.0,Low,"Grass Family, all types",0.0,Low,,"cool, mainly clear with a few showers"
+2024-06-04,Allergy Clinic,6.0,Low,"Juniper family, Cedar; Willow; Pine Family with air bladders",9.0,Low,"Sheep Sorrel, Dock; Nettle family, Pellitory; Aster, Cocklebur, etc.",16.0,Medium,"Grass Family, all types",0.0,Low,,intermittent showers
+2024-06-06,Allergy Clinic,16.0,Medium,"All identified tree pollen not counted elsewhere; Walnut, Butternut; Willow",17.0,Medium,"Nettle family, Pellitory; Aster, Cocklebur, etc.; Sheep Sorrel, Dock",50.0,High,"Grass Family, all types",0.0,Low,,"partly sunny / partly overcast, but warm"
+2024-06-07,Allergy Clinic,16.0,Medium,Hornbeam/Hop hornbeam; Alder; Pine Family with air bladders,27.0,Medium,"Nettle family, Pellitory; Aster, Cocklebur, etc.; Sheep Sorrel, Dock",53.0,High,"Grass Family, all types",0.0,Low,,"warm, mostly sunny"
+2024-06-10,Allergy Clinic,6.0,Low,"Willow; Poplar, Cottonwood, Aspen; Pine Family with air bladders",0.0,Low,,50.0,High,"Grass Family, all types",0.0,Low,,
+2024-06-11,Allergy Clinic,20.0,Medium,"Juniper family, Cedar; Ash; Pine Family with air bladders",24.0,Medium,"Nettle family, Pellitory; Sheep Sorrel, Dock; Plantain",61.0,High,"Grass Family, all types",0.0,Low,,warm & sunny
+2024-06-13,Allergy Clinic,20.0,Medium,"Juniper family, Cedar; Ash; Willow",18.0,Medium,"Nettle family, Pellitory; Sheep Sorrel, Dock; Aster, Cocklebur, etc.",57.0,High,"Grass Family, all types",0.0,Low,,
+2024-06-17,Allergy Clinic,9.0,Low,"Juniper family, Cedar; Willow; Birch",4.0,Low,"Sheep Sorrel, Dock; Plantain; Nettle family, Pellitory",3.0,Low,"Grass Family, all types",0.0,Low,,partly sunny with showers
+2024-06-18,Allergy Clinic,18.0,Medium,"Juniper family, Cedar; Ash; All identified tree pollen not counted elsewhere",6.0,Low,"Nettle family, Pellitory; Sheep Sorrel, Dock; Plantain",33.0,High,"Grass Family, all types",0.0,Low,,warm w/some showers
+2024-06-19,Allergy Clinic,30.0,Medium,"Juniper family, Cedar; Beech; Alder",13.0,Medium,"Plantain; Nettle family, Pellitory; Aster, Cocklebur, etc.",74.0,High,"Grass Family, all types",0.0,Low,,"hot, sunny"
+2024-06-22,Allergy Clinic,33.0,Medium,"Juniper family, Cedar; Beech; Pine Family with air bladders",11.0,Medium,"Plantain; Nettle family, Pellitory; Aster, Cocklebur, etc.",37.0,High,"Grass Family, all types",0.0,Low,,"very warm, a little breezy"
+2024-06-26,Allergy Clinic,8.0,Low,"Poplar, Cottonwood, Aspen; Pine Family with air bladders",14.0,Medium,All identified weed pollen not counted elsewhere; Sedge Family,78.0,High,"Grass Family, all types",0.0,Low,,
+2024-06-27,Allergy Clinic,5.0,Low,All identified tree pollen not counted elsewhere; Sweet Gum; Pine Family with air bladders,6.0,Low,"All identified weed pollen not counted elsewhere; Sheep Sorrel, Dock; Goosefoot, Lamb's Quarters, Pigweed, Amaranth, Saltbush, Russian Thistle",13.0,Medium,"Grass Family, all types",0.0,Low,,
+2024-07-09,Allergy Clinic,9.0,Low,"Juniper family, Cedar; Pine Family with air bladders; All identified tree pollen not counted elsewhere",11.0,Medium,"Aster, Cocklebur, etc.; Sheep Sorrel, Dock; Plantain",34.0,High,"Grass Family, all types",0.0,Low,,record breaking heat
+2024-07-11,Allergy Clinic,8.0,Low,"All identified tree pollen not counted elsewhere; Juniper family, Cedar",13.0,Medium,"Aster, Cocklebur, etc.; Sheep Sorrel, Dock; Nettle family, Pellitory",29.0,High,"Grass Family, all types",0.0,Low,,still hot
+2024-07-15,Allergy Clinic,3.0,Low,"Juniper family, Cedar; All identified tree pollen not counted elsewhere",12.0,Medium,"Sheep Sorrel, Dock; Sedge Family; Nettle family, Pellitory",10.0,Medium,"Grass Family, all types",0.0,Low,,still pretty hot
+2024-07-16,Allergy Clinic,5.0,Low,"Pine Family with air bladders; Juniper family, Cedar",6.0,Low,"Sheep Sorrel, Dock; Nettle family, Pellitory; Plantain",9.0,Medium,"Grass Family, all types",0.0,Low,,still pretty hot
+2024-07-19,Allergy Clinic,7.0,Low,"Juniper family, Cedar; All identified tree pollen not counted elsewhere",12.0,Medium,"All identified weed pollen not counted elsewhere; Nettle family, Pellitory; Goosefoot, Lamb's Quarters, Pigweed, Amaranth, Saltbush, Russian Thistle",18.0,Medium,"Grass Family, all types",0.0,Low,,still pretty hot
+2024-07-23,Allergy Clinic,4.0,Low,"Pine Family with air bladders; Juniper family, Cedar",27.0,Medium,"Goosefoot, Lamb's Quarters, Pigweed, Amaranth, Saltbush, Russian Thistle; All identified weed pollen not counted elsewhere; Sheep Sorrel, Dock",6.0,Medium,"Grass Family, all types",0.0,Low,,
+2024-07-25,Allergy Clinic,7.0,Low,"Juniper family, Cedar; All identified tree pollen not counted elsewhere; Pine Family with air bladders",4.0,Low,"Sheep Sorrel, Dock; All identified weed pollen not counted elsewhere",6.0,Medium,"Grass Family, all types",0.0,Low,,
+2024-07-26,Allergy Clinic,5.0,Low,"Juniper family, Cedar; All identified tree pollen not counted elsewhere; Hemlock",14.0,Medium,"Goosefoot, Lamb's Quarters, Pigweed, Amaranth, Saltbush, Russian Thistle; All identified weed pollen not counted elsewhere; Aster, Cocklebur, etc.",23.0,High,"Grass Family, all types",0.0,Low,,sunny & hot again after a brief rain recently
+2024-08-02,Allergy Clinic,9.0,Low,"Juniper family, Cedar; Pine Family with air bladders",20.0,Medium,"All identified weed pollen not counted elsewhere; Goosefoot, Lamb's Quarters, Pigweed, Amaranth, Saltbush, Russian Thistle; Sheep Sorrel, Dock",7.0,Medium,"Grass Family, all types",0.0,Low,,hot again
+2024-08-06,Allergy Clinic,4.0,Low,"Juniper family, Cedar; Pine Family with air bladders; Hemlock",21.0,Medium,"All identified weed pollen not counted elsewhere; Goosefoot, Lamb's Quarters, Pigweed, Amaranth, Saltbush, Russian Thistle; Aster, Cocklebur, etc.",1.0,Low,"Grass Family, all types",0.0,Low,,still hot
+2024-08-07,Allergy Clinic,3.0,Low,"Juniper family, Cedar; Pine Family with air bladders",12.0,Medium,"Aster, Cocklebur, etc.; All identified weed pollen not counted elsewhere; Goosefoot, Lamb's Quarters, Pigweed, Amaranth, Saltbush, Russian Thistle",2.0,Low,"Grass Family, all types",0.0,Low,,hot
+2024-08-14,Allergy Clinic,3.0,Low,"Juniper family, Cedar; Pine Family with air bladders",10.0,Medium,"Aster, Cocklebur, etc.; All identified weed pollen not counted elsewhere; Plantain",3.0,Low,"Grass Family, all types",0.0,Low,,
+2024-09-06,Allergy Clinic,2.0,Low,Pine Family with air bladders,14.0,Medium,"All identified weed pollen not counted elsewhere; Goosefoot, Lamb's Quarters, Pigweed, Amaranth, Saltbush, Russian Thistle; Aster, Cocklebur, etc.",1.0,Low,"Grass Family, all types",0.0,Low,,
+2024-09-21,Allergy Clinic,2.0,Low,Pine Family with air bladders,17.0,Medium,"All identified weed pollen not counted elsewhere; Goosefoot, Lamb's Quarters, Pigweed, Amaranth, Saltbush, Russian Thistle",0.0,Low,,0.0,Low,,"warm, a little breezy"
+2024-09-28,Allergy Clinic,5.0,Low,Pine Family with air bladders; Elm,3.0,Low,All identified weed pollen not counted elsewhere,0.0,Low,,0.0,Low,,
+2024-10-04,Allergy Clinic,2.0,Low,"Pine Family with air bladders; Juniper family, Cedar",12.0,Medium,"Aster, Cocklebur, etc.; All identified weed pollen not counted elsewhere; Goosefoot, Lamb's Quarters, Pigweed, Amaranth, Saltbush, Russian Thistle",0.0,Low,,0.0,Low,,mild
+2024-10-08,Allergy Clinic,2.0,Low,Pine Family with air bladders,7.0,Low,"All identified weed pollen not counted elsewhere; Plantain; Goosefoot, Lamb's Quarters, Pigweed, Amaranth, Saltbush, Russian Thistle",1.0,Low,"Grass Family, all types",0.0,Low,,"dry & calm, mid 60s"
+2024-10-15,Allergy Clinic,0.0,Low,,4.0,Low,"All identified weed pollen not counted elsewhere; Sheep Sorrel, Dock; Aster, Cocklebur, etc.",0.0,Low,,0.0,Low,,"high in the 60s, some rain"
+2024-10-22,Allergy Clinic,1.0,Low,Pine Family with air bladders,2.0,Low,All identified weed pollen not counted elsewhere,0.0,Low,,0.0,Low,,intermittent showers
+2024-10-26,Allergy Clinic,4.0,Low,Pine Family with air bladders,2.0,Low,All identified weed pollen not counted elsewhere,0.0,Low,,0.0,Low,,"high in the 60s, intermittent showers"
+2024-11-05,Allergy Clinic,3.0,Low,Pine Family with air bladders,2.0,Low,All identified weed pollen not counted elsewhere,0.0,Low,,0.0,Low,,"high in the 50s, windy with a couple showers"
+2024-11-12,Allergy Clinic,1.0,Low,Pine Family with air bladders,3.0,Low,"Aster, Cocklebur, etc.; Goosefoot, Lamb's Quarters, Pigweed, Amaranth, Saltbush, Russian Thistle",0.0,Low,,0.0,Low,,"50s, breezy, intermittent rain"
+2024-11-26,Allergy Clinic,0.0,Low,,1.0,Low,All identified weed pollen not counted elsewhere,0.0,Low,,0.0,Low,,rainy
+2024-12-30,Allergy Clinic,6.0,Low,"Juniper family, Cedar; Birch; Hemlock",1.0,Low,"Goosefoot, Lamb's Quarters, Pigweed, Amaranth, Saltbush, Russian Thistle",0.0,Low,,0.0,Low,,"intermittent rain, weather in the 40s"
+2025-01-06,Allergy Clinic,47.0,Medium,"Juniper family, Cedar; Poplar, Cottonwood, Aspen; Birch",0.0,Low,,0.0,Low,,0.0,Low,,"High in the mid 50s, breezy & dry"
+2025-01-13,Allergy Clinic,4.0,Low,"Willow; Juniper family, Cedar; All identified tree pollen not counted elsewhere",0.0,Low,,0.0,Low,,0.0,Low,,
+2025-01-21,Allergy Clinic,5.0,Low,"Willow; Juniper family, Cedar; Alder",0.0,Low,,0.0,Low,,0.0,Low,,"high in the low 40s, sunny & clear but, freezing overnight"
+2025-01-28,Allergy Clinic,16.0,Medium,"Hazelnut; Juniper family, Cedar; Birch",0.0,Low,,0.0,Low,,0.0,Low,,"still falling below freezing overnight but high of 51 today, sunny and dry"
+2025-01-31,Allergy Clinic,8.0,Low,"Willow; Juniper family, Cedar; Ash",0.0,Low,,0.0,Low,,0.0,Low,,temps in the mid 30s to low 40s including overnight; dry
+2025-02-04,Allergy Clinic,10.0,Low,Birch; Elm; Willow,0.0,Low,,0.0,Low,,0.0,Low,,
+2025-02-07,Allergy Clinic,43.0,Medium,Hazelnut; Birch; Elm,0.0,Low,,0.0,Low,,0.0,Low,,
+2025-02-18,Allergy Clinic,14.0,Low,"Juniper family, Cedar; Willow; Hazelnut",0.0,Low,,0.0,Low,,0.0,Low,,"high in the low 40s, lows in the upper 20s overnight"
+2025-02-19,Allergy Clinic,47.0,Medium,"Juniper family, Cedar; Hickory, Pecan; Birch",0.0,Low,,0.0,Low,,0.0,Low,,
+2025-02-26,Allergy Clinic,104.0,High,"Juniper family, Cedar; Ash; Poplar, Cottonwood, Aspen",0.0,Low,,0.0,Low,,0.0,Low,,"high mid 50s, low mid 30s, a brief light shower or two"
+2025-03-04,Allergy Clinic,101.0,High,"Juniper family, Cedar; Alder; Ash",0.0,Low,,0.0,Low,,0.0,Low,,"low in the mid 40s overnight, high in the upper 50s, very brief light shower"
+2025-03-08,Allergy Clinic,47.0,Medium,"Juniper family, Cedar; Alder; Ash",0.0,Low,,0.0,Low,,0.0,Low,,"breezy & dry, high in the low 60s, lows in the 40s overnight"
+2025-03-12,Allergy Clinic,23.0,Medium,"Juniper family, Cedar; Ash; Willow",0.0,Low,,0.0,Low,,0.0,Low,,"a little drizzly, high in the low 50s and low in the upper 40s overnight"
+2025-03-14,Allergy Clinic,27.0,Medium,"Juniper family, Cedar; Alder; Poplar, Cottonwood, Aspen",0.0,Low,,0.0,Low,,0.0,Low,,"high in the low 40s and low overnight in the upper 30s, a couple light rain storms"
+2025-03-18,Allergy Clinic,85.0,Medium,"Alder; Poplar, Cottonwood, Aspen; Juniper family, Cedar",0.0,Low,,0.0,Low,,0.0,Low,,"Temps in the 40s including overnight, some rain and a brief hail storm"
+2025-03-22,Allergy Clinic,31.0,Medium,"Poplar, Cottonwood, Aspen; Juniper family, Cedar; Ash",0.0,Low,,0.0,Low,,0.0,Low,,"temps in the mid 40s to mid 50s, a little rain"
+2025-03-23,Allergy Clinic,73.0,Medium,"Juniper family, Cedar; Alder; Ash",0.0,Low,,0.0,Low,,0.0,Low,,"low in the upper 40s overnight, high of 61, but a little rain"
+2025-04-01,Allergy Clinic,10.0,Low,"Poplar, Cottonwood, Aspen; Ash; Willow",0.0,Low,,1.0,Low,"Grass Family, all types",0.0,Low,,"high in the mid 50s, low in the upper 30s, dry but overcast"
+2025-04-04,Allergy Clinic,104.0,High,Alder; Birch; Ash,0.0,Low,,0.0,Low,,0.0,Low,,"Lows in the 40s, high of 70, sunny & warm."
+2025-04-08,Allergy Clinic,114.0,High,"Ash; Willow; Juniper family, Cedar",0.0,Low,,1.0,Low,"Grass Family, all types",0.0,Low,,"Temp ranged from low 50s overnight to high 50s during the day, a couple brief showers."
+2025-04-12,Allergy Clinic,85.0,Medium,"Poplar, Cottonwood, Aspen; Hemlock; Ash",0.0,Low,,1.0,Low,"Grass Family, all types",0.0,Low,,"Lows in the 40s overnight, nearly hit 60 in the day, dry and sunny"
+2025-04-15,Allergy Clinic,390.0,High,Ash; Alder; Oak,2.0,Low,"Sedge Family; Goosefoot, Lamb's Quarters, Pigweed, Amaranth, Saltbush, Russian Thistle",2.0,Low,"Grass Family, all types",0.0,Low,,"lows in the 50s, highs in the mid 70s, very warm and sunny"
+2025-04-18,Allergy Clinic,123.0,High,"Ash; Willow; Sycamore, Plane-tree",0.0,Low,,1.0,Low,"Grass Family, all types",0.0,Low,,"Sunny & dry, lows in the 40s, almost hit 80 (79)"
+2025-04-20,Allergy Clinic,34.0,Medium,Ash; Willow; Oak,1.0,Low,"Nettle family, Pellitory",1.0,Low,"Grass Family, all types",0.0,Low,,"a couple showers; lows in the 50s/highs in the 60s, breezy"
+2025-04-21,Allergy Clinic,29.0,Medium,Ash; Willow; Elm,0.0,Low,,1.0,Low,"Grass Family, all types",0.0,Low,,
+2025-04-22,Allergy Clinic,29.0,Medium,Elm; Ash; Willow,0.0,Low,,1.0,Low,"Grass Family, all types",0.0,Low,,"sunny & dry, highs in the 60s/lows in the 40s"
+2025-04-24,Allergy Clinic,127.0,High,Ash; Willow; Oak,0.0,Low,,4.0,Low,"Grass Family, all types",0.0,Low,,"Sunny, very warm (hit 80 today)"
+2025-04-25,Allergy Clinic,27.0,Medium,"Ash; Willow; Maple, Box elder",1.0,Low,"Goosefoot, Lamb's Quarters, Pigweed, Amaranth, Saltbush, Russian Thistle",1.0,Low,"Grass Family, all types",0.0,Low,,"hot and sunny, high of 80, lows in the 50s"
+2025-04-30,Allergy Clinic,145.0,High,"Ash; Willow; Juniper family, Cedar",2.0,Low,"Sheep Sorrel, Dock; Nettle family, Pellitory",3.0,Low,"Grass Family, all types",0.0,Low,,"High around 70, lows in the 40s, sunny & warm w/a brief light AM shower"
+2025-05-03,Allergy Clinic,79.0,Medium,Ash; Willow; Pine Family with air bladders,2.0,Low,"Sheep Sorrel, Dock; Nettle family, Pellitory",6.0,Medium,"Grass Family, all types",0.0,Low,,"Sunny & dry but cooler, highs in the low 60s, temps in the 50s overnight"
+2025-05-06,Allergy Clinic,31.0,Medium,Elm; All identified tree pollen not counted elsewhere; Oak,0.0,Low,,2.0,Low,"Grass Family, all types",0.0,Low,,"sunny, warm & dry, highs in the 80s"
+2025-05-08,Allergy Clinic,24.0,Medium,"Pine Family with air bladders; Juniper family, Cedar; Willow",0.0,Low,,1.0,Low,"Grass Family, all types",0.0,Low,,"Sunny & warm, highs in the upper 70s, lows in the 40s overnight"
+2025-05-09,Allergy Clinic,23.0,Medium,Willow; Pine Family with air bladders; Elm,2.0,Low,"Plantain; Nettle family, Pellitory",2.0,Low,"Grass Family, all types",0.0,Low,,"sunny & very warm, lows in the 40s overnight, high 70s during the day"
+2025-05-12,Allergy Clinic,4.0,Low,"Willow; Walnut, Butternut; Pine Family with air bladders",3.0,Low,"Sheep Sorrel, Dock; Plantain; Goosefoot, Lamb's Quarters, Pigweed, Amaranth, Saltbush, Russian Thistle",1.0,Low,"Grass Family, all types",0.0,Low,,Rainy! Highs in the low 60s
+2025-05-14,Allergy Clinic,26.0,Medium,"Pine Family with air bladders; Willow; Walnut, Butternut",2.0,Low,"Sheep Sorrel, Dock; Nettle family, Pellitory",3.0,Low,"Grass Family, all types",0.0,Low,,"Dry but still cooler, highs in the low 60s"
+2025-05-16,Allergy Clinic,3.0,Low,"Willow; Maple, Box elder; Juniper family, Cedar",3.0,Low,"Nettle family, Pellitory",2.0,Low,"Grass Family, all types",0.0,Low,,ongoing internmittent rain
+2025-05-19,Allergy Clinic,5.0,Low,"Willow; Walnut, Butternut; Pine Family with air bladders",3.0,Low,"Nettle family, Pellitory; Sheep Sorrel, Dock",3.0,Low,"Grass Family, all types",0.0,Low,,"highs in the mid 60s, lows in the lower 50s overnight, rainy"
+2025-05-20,Allergy Clinic,10.0,Low,"Juniper family, Cedar; Pine Family with air bladders; Willow",10.0,Medium,"Nettle family, Pellitory; Sheep Sorrel, Dock; Plantain",11.0,Medium,"Grass Family, all types",0.0,Low,,"finally dry after days of intermittent rain, but still cool - high of 61, low of 51"
+2025-05-23,Allergy Clinic,13.0,Low,"Ash; Willow; Juniper family, Cedar",3.0,Low,"Nettle family, Pellitory; Sheep Sorrel, Dock",5.0,Medium,"Grass Family, all types",0.0,Low,,"Sunny & dry, high in the upper 60s/lows in the lower 50s overnight"
+2025-05-26,Allergy Clinic,16.0,Medium,"Juniper family, Cedar; Pine Family with air bladders; Willow",3.0,Low,"Nettle family, Pellitory; Sheep Sorrel, Dock",13.0,Medium,"Grass Family, all types",0.0,Low,,"Hot and sunny after cooler days, high 82 today"
+2025-05-28,Allergy Clinic,13.0,Low,"Juniper family, Cedar; Willow; Pine Family with air bladders",4.0,Low,"Nettle family, Pellitory; Sheep Sorrel, Dock",8.0,Medium,"Grass Family, all types",0.0,Low,,"Sunny & dry, high of 82"
+2025-05-30,Allergy Clinic,6.0,Low,"All identified tree pollen not counted elsewhere; Walnut, Butternut; Pine Family with air bladders",7.0,Low,"Nettle family, Pellitory; Sheep Sorrel, Dock; Plantain",10.0,Medium,"Grass Family, all types",0.0,Low,,"hot sunny & dry, high in the mid 80s"
+2025-06-03,Allergy Clinic,6.0,Low,All identified tree pollen not counted elsewhere; Willow; Pine Family with air bladders,4.0,Low,"Sheep Sorrel, Dock; Plantain; Nettle family, Pellitory",7.0,Medium,"Grass Family, all types",0.0,Low,,"Sunny and warm, highs in the mid 70s, but low 50s overnight"
+2025-06-05,Allergy Clinic,2.0,Low,"Walnut, Butternut; Pine Family with air bladders; All identified tree pollen not counted elsewhere",3.0,Low,"Nettle family, Pellitory; Plantain",6.0,Medium,"Grass Family, all types",0.0,Low,,"Sunny and warm, highs around 70, dry today but had some light rain yesterday"
+2025-06-06,Allergy Clinic,16.0,Medium,"Maple, Box elder; All identified tree pollen not counted elsewhere; Juniper family, Cedar",10.0,Medium,"Nettle family, Pellitory; Plantain",27.0,High,"Grass Family, all types",0.0,Low,,"Very warm and sunny, highs in the low 80s, still & dry"
+2025-06-07,Allergy Clinic,16.0,Medium,Ash; All identified tree pollen not counted elsewhere; Alder,17.0,Medium,"Nettle family, Pellitory; Plantain; Aster, Cocklebur, etc.",37.0,High,"Grass Family, all types",0.0,Low,,"Hot & sunny, high in the mid/upper 80s"
+2025-06-10,Allergy Clinic,15.0,Medium,"Juniper family, Cedar; Walnut, Butternut; Pine Family with air bladders",15.0,Medium,"Sheep Sorrel, Dock; Nettle family, Pellitory; Goosefoot, Lamb's Quarters, Pigweed, Amaranth, Saltbush, Russian Thistle",34.0,High,"Grass Family, all types",0.0,Low,,HOT - highs around 90
+2025-06-13,Allergy Clinic,21.0,Medium,"Juniper family, Cedar; Willow; Pine Family with air bladders",7.0,Low,"Sheep Sorrel, Dock; Plantain; Nettle family, Pellitory",25.0,High,"Grass Family, all types",0.0,Low,,"Sunny & dry, highs in the 70s"
+2025-06-17,Allergy Clinic,69.0,Medium,"Juniper family, Cedar; All identified tree pollen not counted elsewhere; Poplar, Cottonwood, Aspen",6.0,Low,"Goosefoot, Lamb's Quarters, Pigweed, Amaranth, Saltbush, Russian Thistle; All identified weed pollen not counted elsewhere",68.0,High,"Grass Family, all types",0.0,Low,,
+2025-06-19,Allergy Clinic,12.0,Low,"Juniper family, Cedar; All identified tree pollen not counted elsewhere; Pine Family with air bladders",5.0,Low,"Sheep Sorrel, Dock; Aster, Cocklebur, etc.; Goosefoot, Lamb's Quarters, Pigweed, Amaranth, Saltbush, Russian Thistle",22.0,High,"Grass Family, all types",0.0,Low,,"Dry, overcast, highs in the low 60s"
+2025-06-20,Allergy Clinic,13.0,Low,"Juniper family, Cedar; Pine Family with air bladders; All identified tree pollen not counted elsewhere",6.0,Low,"Sheep Sorrel, Dock; Nettle family, Pellitory; Plantain",14.0,Medium,"Grass Family, all types",0.0,Low,,"Rainy, high in the 60s"
+2025-06-24,Allergy Clinic,22.0,Medium,"Juniper family, Cedar; Pine Family with air bladders; Oak",15.0,Medium,"Nettle family, Pellitory; Aster, Cocklebur, etc.; Sheep Sorrel, Dock",52.0,High,"Grass Family, all types",0.0,Low,,"Dry after rain yesterday, and back to warmer temps (highs in the 80s vs 60s yesterday)"
+2025-06-25,Allergy Clinic,10.0,Low,"All identified tree pollen not counted elsewhere; Juniper family, Cedar; Willow",1.0,Low,"Goosefoot, Lamb's Quarters, Pigweed, Amaranth, Saltbush, Russian Thistle",4.0,Low,"Grass Family, all types",0.0,Low,,
+2025-06-26,Allergy Clinic,8.0,Low,"Juniper family, Cedar; Pine Family with air bladders; Oak",6.0,Low,"Plantain; Nettle family, Pellitory; Sheep Sorrel, Dock",9.0,Medium,"Grass Family, all types",0.0,Low,,"sunny & dry, high in the low 70s"
+2025-06-30,Allergy Clinic,12.0,Low,"Juniper family, Cedar; All identified tree pollen not counted elsewhere; Alder",26.0,Medium,"Plantain; Nettle family, Pellitory; Aster, Cocklebur, etc.",45.0,High,"Grass Family, all types",0.0,Low,,"Sunny dry and hot, hit the low 90s"
+2025-07-01,Allergy Clinic,10.0,Low,"All identified tree pollen not counted elsewhere; Pine Family with air bladders; Juniper family, Cedar",0.0,Low,,26.0,High,"Grass Family, all types",0.0,Low,,
+2025-07-06,Allergy Clinic,7.0,Low,"Juniper family, Cedar; Pine Family with air bladders; Oak",11.0,Medium,"Plantain; Nettle family, Pellitory; Sheep Sorrel, Dock",39.0,High,"Grass Family, all types",0.0,Low,,"Sunny & dry, high in the mid 80s"
+2025-07-07,Allergy Clinic,12.0,Low,"Juniper family, Cedar; All identified tree pollen not counted elsewhere; Pine Family with air bladders",26.0,Medium,"Plantain; Sheep Sorrel, Dock; Nettle family, Pellitory",30.0,High,"Grass Family, all types",0.0,Low,,"Hot, hit the 90s again today"
+2025-07-09,Allergy Clinic,4.0,Low,"All identified tree pollen not counted elsewhere; Willow; Juniper family, Cedar",0.0,Low,,12.0,Medium,"Grass Family, all types",0.0,Low,,
+2025-07-15,Allergy Clinic,6.0,Low,"Willow; Poplar, Cottonwood, Aspen; Pine Family with air bladders",1.0,Low,"Goosefoot, Lamb's Quarters, Pigweed, Amaranth, Saltbush, Russian Thistle",13.0,Medium,"Grass Family, all types",0.0,Low,,
+2025-07-22,Allergy Clinic,3.0,Low,"All identified tree pollen not counted elsewhere; Juniper family, Cedar",3.0,Low,"Sheep Sorrel, Dock; Sedge Family; Plantain",6.0,Medium,"Grass Family, all types",0.0,Low,,
+2025-07-25,Allergy Clinic,2.0,Low,"Juniper family, Cedar",4.0,Low,Plantain,10.0,Medium,"Grass Family, all types",0.0,Low,,
+2026-01-09,Allergy Clinic,3.0,Low,"Poplar, Cottonwood, Aspen; Juniper family, Cedar; Hazelnut",0.0,Low,,0.0,Low,,0.0,Low,,intermittent rain
+2026-01-13,Allergy Clinic,5.0,Low,"Juniper family, Cedar; Poplar, Cottonwood, Aspen; Hazelnut",0.0,Low,,0.0,Low,,0.0,Low,,"intermittent rain, mild/temps in the 50s"
+2026-01-16,Allergy Clinic,27.0,Medium,"Juniper family, Cedar; Alder; Birch",0.0,Low,,0.0,Low,,0.0,Low,,"gusty and dry, high 47F"
+2026-01-20,Allergy Clinic,0.0,Low,,0.0,Low,,0.0,Low,,0.0,Low,,
+2026-01-21,Allergy Clinic,2.0,Low,"Juniper family, Cedar; Hazelnut",0.0,Low,,0.0,Low,,0.0,Low,,
+2026-01-26,Allergy Clinic,3.0,Low,"Juniper family, Cedar; Hazelnut",0.0,Low,,0.0,Low,,0.0,Low,,
+2026-01-27,Allergy Clinic,5.0,Low,"Willow; Poplar, Cottonwood, Aspen; Juniper family, Cedar",0.0,Low,,0.0,Low,,0.0,Low,,
+2026-01-30,Allergy Clinic,4.0,Low,"Willow; Poplar, Cottonwood, Aspen; Juniper family, Cedar",0.0,Low,,0.0,Low,,0.0,Low,,
+2026-02-02,Allergy Clinic,11.0,Low,"Hazelnut; Hickory, Pecan; Poplar, Cottonwood, Aspen",0.0,Low,,0.0,Low,,0.0,Low,,
+2026-02-03,Allergy Clinic,20.0,Medium,"Juniper family, Cedar; Hazelnut; Ash",0.0,Low,,0.0,Low,,0.0,Low,,
+2026-02-09,Allergy Clinic,9.0,Low,"Juniper family, Cedar; Ash; Poplar, Cottonwood, Aspen",0.0,Low,,0.0,Low,,0.0,Low,,"High 53, low 44, gusty with light rain"
+2026-02-10,Allergy Clinic,13.0,Low,"Juniper family, Cedar; Elm; Ash",0.0,Low,,0.0,Low,,0.0,Low,,"high 55, low 37, dry but breezy in the afternoon"
+2026-02-13,Allergy Clinic,41.0,Medium,"Juniper family, Cedar; Elm; Poplar, Cottonwood, Aspen",0.0,Low,,0.0,Low,,0.0,Low,,"low of 41 and high of 53, some brief light rain"
+2026-02-15,Allergy Clinic,6.0,Low,"Juniper family, Cedar; Mulberry; Birch",0.0,Low,,0.0,Low,,0.0,Low,,"High 49, low 41, some showers"
+2026-02-17,Allergy Clinic,0.0,Low,,0.0,Low,,0.0,Low,,0.0,Low,,
+2026-02-20,Allergy Clinic,9.0,Low,"Juniper family, Cedar; Elm; Ash",0.0,Low,,0.0,Low,,0.0,Low,,"High of 47, low of 33, breezy but dry."
+2026-02-21,Allergy Clinic,24.0,Medium,"Juniper family, Cedar; Poplar, Cottonwood, Aspen; Elm",0.0,Low,,0.0,Low,,0.0,Low,,"high 43, low 37, gusty with some rain"
+2026-02-24,Allergy Clinic,0.0,Low,,0.0,Low,,0.0,Low,,0.0,Low,,steady rain
+2026-02-27,Allergy Clinic,93.0,High,"Juniper family, Cedar; Elm; Ash",0.0,Low,,0.0,Low,,0.0,Low,,"Sunny and warm, high in the 50s, after weeks of rain"
+2026-02-28,Allergy Clinic,114.0,High,"Juniper family, Cedar; Poplar, Cottonwood, Aspen; Hornbeam/Hop hornbeam",0.0,Low,,0.0,Low,,0.0,Low,,"High of 51, low of 34 overnight. Dry"
+2026-03-01,Allergy Clinic,31.0,Medium,"Juniper family, Cedar; Hazelnut; Alder",0.0,Low,,0.0,Low,,0.0,Low,,"Warm & sunny, high of 60 and low of 41 overnight"
+2026-03-03,Allergy Clinic,95.0,High,"Juniper family, Cedar; Poplar, Cottonwood, Aspen; Elm",0.0,Low,,0.0,Low,,0.0,Low,,"Sunny & warm, high of 57, low of 43"
+2026-03-06,Allergy Clinic,9.0,Low,"Juniper family, Cedar; Poplar, Cottonwood, Aspen; Hornbeam/Hop hornbeam",0.0,Low,,0.0,Low,,0.0,Low,,Rainy. High of 52 and low of 43
+2026-03-12,Allergy Clinic,9.0,Low,"Poplar, Cottonwood, Aspen; Juniper family, Cedar; Willow",0.0,Low,,0.0,Low,,0.0,Low,,"temps stable, 52-57 all day, but Very windy & a little rain"
+2026-03-16,Allergy Clinic,44.0,Medium,"Alder; Hornbeam/Hop hornbeam; Juniper family, Cedar",0.0,Low,,0.0,Low,,0.0,Low,,"Sunny & dry, low 47 overnight & high 67"
+2026-03-17,Allergy Clinic,445.0,High,"Alder; Hornbeam/Hop hornbeam; Poplar, Cottonwood, Aspen",0.0,Low,,0.0,Low,,0.0,Low,,"lows in the 40s overnight, high of 68, brief light showers late in the day"
+2026-03-20,Allergy Clinic,108.0,High,"Alder; Juniper family, Cedar; Hornbeam/Hop hornbeam",0.0,Low,,0.0,Low,,0.0,Low,,"high of 61, low of 48, sunny & dry but somewhat breezy"
+2026-03-24,Allergy Clinic,104.0,High,"Juniper family, Cedar; Alder; Poplar, Cottonwood, Aspen",0.0,Low,,0.0,Low,,0.0,Low,,"high 61, low 50, light PM rain"
+2026-03-25,Allergy Clinic,29.0,Medium,"Juniper family, Cedar; Poplar, Cottonwood, Aspen; Willow",0.0,Low,,0.0,Low,,0.0,Low,,"high 57, low 42, light rain showers"
+2026-03-27,Allergy Clinic,89.0,Medium,"Alder; Hornbeam/Hop hornbeam; Poplar, Cottonwood, Aspen",0.0,Low,,0.0,Low,,0.0,Low,,"Low of 37 overnight but reached the 60s during the day, warm and sunny"
+2026-03-28,Allergy Clinic,402.0,High,"Alder; Hornbeam/Hop hornbeam; Poplar, Cottonwood, Aspen",0.0,Low,,1.0,Low,"Grass Family, all types",0.0,Low,,"Very warm, high of 67, low in the high 40s overnight, sunny & dry."
+2026-03-31,Allergy Clinic,61.0,Medium,Alder; Birch; Ash,0.0,Low,,1.0,Low,"Grass Family, all types",0.0,Low,,"mostly dry but a couple light showers, low 40 overnight, mid 50s during the day"
+2026-04-04,Allergy Clinic,79.0,Medium,"Alder; Birch; Poplar, Cottonwood, Aspen",0.0,Low,,2.0,Low,"Grass Family, all types",0.0,Low,,"Sunny & dry, hit 72 during the day, 41 overnight."
+2026-04-06,Allergy Clinic,0.0,Low,,0.0,Low,,0.0,Low,,0.0,Low,,
+2026-04-07,Allergy Clinic,373.0,High,"Ash; Poplar, Cottonwood, Aspen; Birch",1.0,Low,"Nettle family, Pellitory",5.0,Medium,"Grass Family, all types",0.0,Low,,"nearly hit 80 during the day, low of 47 overnight"
+2026-04-10,Allergy Clinic,535.0,High,"Ash; Willow; Poplar, Cottonwood, Aspen",0.0,Low,,23.0,High,"Grass Family, all types",0.0,Low,,"Warm and sunny, mid 70s during the day and mid 50s overnight"
+2026-04-12,Allergy Clinic,95.0,High,Ash; Willow; Oak,2.0,Low,"Sheep Sorrel, Dock; Nettle family, Pellitory",3.0,Low,"Grass Family, all types",0.0,Low,,"Rainy & cooler, low to mid 50s all day and overnight"
+2026-04-16,Allergy Clinic,29.0,Medium,"Oak; Juniper family, Cedar; Willow",0.0,Low,,3.0,Low,"Grass Family, all types",0.0,Low,,"cool, high of 50, with some rain"
+2026-04-19,Allergy Clinic,60.0,Medium,"Oak; Willow; Maple, Box elder",0.0,Low,,7.0,Medium,"Grass Family, all types",0.0,Low,,"warmer again, hit the low 70s, and dry"
+2026-04-21,Allergy Clinic,7.0,Low,"Ash; Willow; Poplar, Cottonwood, Aspen",0.0,Low,,1.0,Low,"Grass Family, all types",0.0,Low,,"Rainy, temps in the 50s"
+2026-04-23,Allergy Clinic,0.0,Low,,0.0,Low,,0.0,Low,,0.0,Low,,
+2026-04-24,Allergy Clinic,74.0,Medium,"Ash; Willow; Juniper family, Cedar",2.0,Low,"Sheep Sorrel, Dock; Nettle family, Pellitory",3.0,Low,"Grass Family, all types",0.0,Low,,"Low 41 overnight, reached 68 in the afternoon, sunny and dry"
+2026-04-25,Allergy Clinic,80.0,Medium,"Ash; Juniper family, Cedar; Oak",2.0,Low,"Sheep Sorrel, Dock; Nettle family, Pellitory",7.0,Medium,"Grass Family, all types",0.0,Low,,"Low in the low 40s overnight, high nearly  hit 70. Warm and sunny"
+2026-04-28,Allergy Clinic,27.0,Medium,"Ash; Pine Family with air bladders; Juniper family, Cedar",0.0,Low,,4.0,Low,"Grass Family, all types",0.0,Low,,"Temps in the 50s all day/night, gusty but dry"
+2026-05-01,Allergy Clinic,42.0,Medium,Ash; Willow; Pine Family with air bladders,2.0,Low,"Plantain; Nettle family, Pellitory",5.0,Medium,"Grass Family, all types",0.0,Low,,"Hot and dry, high in the upper 70s/near 80, lows in the 50s overnight."
+2026-05-05,Allergy Clinic,59.0,Medium,Ash; Willow; Pine Family with air bladders,2.0,Low,"Sheep Sorrel, Dock; Nettle family, Pellitory",4.0,Low,"Grass Family, all types",0.0,Low,,"High in the 60s, low in the 50s overnight, cooler than previous. Sunny and dry."
+2026-05-08,Allergy Clinic,29.0,Medium,Ash; Willow; Privet,4.0,Low,"All identified weed pollen not counted elsewhere; Sheep Sorrel, Dock; Nettle family, Pellitory",12.0,Medium,"Grass Family, all types",0.0,Low,,"High around 70, lows in the 50s overnight, sunny and dry"
+2026-05-10,Allergy Clinic,24.0,Medium,Willow; Ash; Pine Family with air bladders,0.0,Low,,4.0,Low,"Grass Family, all types",0.0,Low,,
+2026-05-13,Allergy Clinic,41.0,Medium,"Juniper family, Cedar; Ash; Willow",0.0,Low,,12.0,Medium,"Grass Family, all types",0.0,Low,,
+2026-05-15,Allergy Clinic,14.0,Low,"Pine Family with air bladders; Juniper family, Cedar; Walnut, Butternut",1.0,Low,"Sheep Sorrel, Dock",3.0,Low,"Grass Family, all types",0.0,Low,,rainy
+2026-05-19,Allergy Clinic,12.0,Low,"Willow; Privet; Juniper family, Cedar",2.0,Low,"Sedge Family; Nettle family, Pellitory",9.0,Medium,"Grass Family, all types",0.0,Low,,
+2026-05-23,Allergy Clinic,12.0,Low,"Ash; Willow; Juniper family, Cedar",4.0,Low,"Sheep Sorrel, Dock; Nettle family, Pellitory",22.0,High,"Grass Family, all types",0.0,Low,,
+2026-05-29,Allergy Clinic,21.0,Medium,"Juniper family, Cedar; Ash; Alder",5.0,Low,"Nettle family, Pellitory; Sheep Sorrel, Dock; Plantain",36.0,High,"Grass Family, all types",0.0,Low,,"High of 80, sunny and warm, but with some brief light rain"
+2026-05-30,Allergy Clinic,8.0,Low,"Willow; Walnut, Butternut; Privet",2.0,Low,"Sheep Sorrel, Dock; Nettle family, Pellitory",9.0,Medium,"Grass Family, all types",0.0,Low,,"Cooler, highs in the 60s, some brief rain"
+2026-06-01,Allergy Clinic,10.0,Low,Privet; Willow; Pine Family with air bladders,5.0,Low,"Nettle family, Pellitory; Sheep Sorrel, Dock; Plantain",23.0,High,"Grass Family, all types",0.0,Low,,"Sunny and dry, high in the mid 80s"
+2026-06-02,Allergy Clinic,19.0,Medium,"Pine Family with air bladders; Privet; Juniper family, Cedar",7.0,Low,"Nettle family, Pellitory; Sheep Sorrel, Dock; Plantain",30.0,High,"Grass Family, all types",0.0,Low,,hot - nearly hit 90 today
+2026-06-05,Allergy Clinic,25.0,Medium,"Juniper family, Cedar; Willow; Pine Family with air bladders",5.0,Low,"Sheep Sorrel, Dock; Plantain; Nettle family, Pellitory",30.0,High,"Grass Family, all types",0.0,Low,,"cooler, in the 60s, breezy"
+2026-06-06,Allergy Clinic,20.0,Medium,"Juniper family, Cedar; Pine Family with air bladders; Basswood, Linden",4.0,Low,"Sheep Sorrel, Dock; Plantain; Nettle family, Pellitory",19.0,Medium,"Grass Family, all types",0.0,Low,,rainy
+2026-06-08,Allergy Clinic,4.0,Low,"Willow; Walnut, Butternut; Pine Family with air bladders",2.0,Low,"Sheep Sorrel, Dock",18.0,Medium,"Grass Family, all types",0.0,Low,,very rainy
+2026-06-09,Allergy Clinic,11.0,Low,"Juniper family, Cedar; All identified tree pollen not counted elsewhere; Pine Family with air bladders",0.0,Low,,27.0,High,"Grass Family, all types",0.0,Low,,
+2026-06-16,Allergy Clinic,17.0,Medium,"Juniper family, Cedar; Pine Family with air bladders; Basswood, Linden",3.0,Low,"Sheep Sorrel, Dock; Nettle family, Pellitory; Goosefoot, Lamb's Quarters, Pigweed, Amaranth, Saltbush, Russian Thistle",78.0,High,"Grass Family, all types",0.0,Low,,Very hot
+2026-06-17,Allergy Clinic,12.0,Low,"Juniper family, Cedar; Basswood, Linden; Pine Family with air bladders",9.0,Low,"Nettle family, Pellitory; Plantain; Sheep Sorrel, Dock",31.0,High,"Grass Family, all types",0.0,Low,,hot
+2026-06-19,Allergy Clinic,10.0,Low,"Juniper family, Cedar; Basswood, Linden; Pine Family with air bladders",4.0,Low,"All identified weed pollen not counted elsewhere; Sheep Sorrel, Dock",73.0,High,"Grass Family, all types",0.0,Low,,"Hot & dry, high in the 80s"
+2026-06-23,Allergy Clinic,26.0,Medium,"Pine Family with air bladders; Juniper family, Cedar; Willow",18.0,Medium,"All identified weed pollen not counted elsewhere; Sheep Sorrel, Dock; Plantain",55.0,High,"Grass Family, all types",0.0,Low,,"Sunny and dry, high in the 90s"
 2026-06-26,Allergy Clinic,4.0,Low,"Willow; Juniper family, Cedar; Basswood, Linden",5.0,Low,"All identified weed pollen not counted elsewhere; Sheep Sorrel, Dock",3.0,Low,"Grass Family, all types",0.0,Low,,cool and rainy
