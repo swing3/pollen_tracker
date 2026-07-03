@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pollen Watch — Portland · Eugene · Seattle</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/papaparse/5.4.1/papaparse.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/2.35.2/plotly.min.js"></script>
+<style>
+  :root{
+    --bg: #eef2ec;
+    --surface: #ffffff;
+    --surface-soft: #f5f8f3;
+    --ink: #1e2b22;
+    --ink-soft: #57685b;
+    --line: #d8e0d5;
+    --portland: #2f6e4e;
+    --eugene: #c98a2b;
+    --seattle: #3e6e8e;
+    --level-none: #b9c3ba;
+    --level-low: #7fb87a;
+    --level-medium: #e0b23d;
+    --level-high: #dd7f3c;
+    --level-veryhigh: #c1442e;
+    --radius: 14px;
+    --shadow: 0 1px 2px rgba(30,43,34,0.06), 0 8px 24px -12px rgba(30,43,34,0.18);
+  }
+
+  *{ box-sizing: border-box; }
+
+  html{ scroll-behavior: smooth; }
+
+  body{
+    margin:0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: 'IBM Plex Sans', system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .wrap{
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0 20px 64px;
+  }
+
+  /* ---------- Header ---------- */
+
+  header.hero{
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(180deg, #24382c 0%, #1e2b22 100%);
+    color: #eef2ec;
+    padding: 56px 20px 40px;
+    margin-bottom: 40px;
+  }
+
+  #pollen-canvas{
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.55;
+  }
+
+  .hero-inner{
+    position: relative;
+    max-width: 1180px;
+    margin: 0 auto;
+    z-index: 1;
+  }
+
+  .eyebrow{
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #a9c2ac;
+    margin: 0 0 14px;
+  }
+
+  h1{
+    font-family: 'Fraunces', serif;
+    font-weight: 500;
+    font-size: clamp(32px, 5vw, 52px);
+    line-height: 1.05;
+    margin: 0 0 14px;
+    letter-spacing: -0.01em;
+  }
+
+  .hero-sub{
+    font-size: 16px;
+    color: #c3d3c5;
+    max-width: 560px;
+    line-height: 1.55;
+    margin: 0;
+  }
+
+  /* ---------- Snapshot cards ---------- */
+
+  .snapshot{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+    margin-top: 32px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .card{
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.14);
+    border-radius: var(--radius);
+    padding: 18px 18px 16px;
+    backdrop-filter: blur(6px);
+  }
+
+  .card .station-name{
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #b9cabb;
+    margin: 0 0 10px;
+    display:flex;
+    align-items:center;
+    gap:8px;
+  }
+
+  .dot{ width:8px; height:8px; border-radius:50%; display:inline-block; flex-shrink:0; }
+
+  .card .grass-value{
+    font-family: 'Fraunces', serif;
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 1;
+    margin: 0 0 4px;
+  }
+
+  .card .grass-unit{ font-size: 12px; color:#a9bfac; font-weight:400; }
+
+  .badge{
+    display:inline-block;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    font-weight: 500;
+    padding: 3px 9px;
+    border-radius: 999px;
+    margin-top: 8px;
+    color: #1e2b22;
+  }
+
+  .card .meta{
+    margin-top: 10px;
+    font-size: 12.5px;
+    color: #a9bfac;
+    line-height: 1.5;
+  }
+
+  .card .meta strong{ color: #dbe6dc; font-weight:500; }
+
+  /* ---------- Sections ---------- */
+
+  section{ margin-top: 44px; }
+
+  .section-head{
+    display:flex;
+    align-items:flex-end;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    gap: 14px;
+    margin-bottom: 18px;
+  }
+
+  h2{
+    font-family:'Fraunces', serif;
+    font-weight: 500;
+    font-size: 24px;
+    margin: 0;
+  }
+
+  .section-note{
+    font-size: 13px;
+    color: var(--ink-soft);
+    margin: 4px 0 0;
+  }
+
+  .controls{
+    display:flex;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+
+  .btn{
+    font-family:'IBM Plex Mono', monospace;
+    font-size: 12.5px;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    color: var(--ink-soft);
+    padding: 7px 14px;
+    border-radius: 999px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+  }
+
+  .btn:hover{ border-color: var(--portland); color: var(--ink); }
+
+  .btn.active{
+    background: var(--ink);
+    border-color: var(--ink);
+    color: #eef2ec;
+  }
+
+  .tabs{ display:flex; gap:6px; }
+
+  .tab{
+    font-family:'IBM Plex Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    background: transparent;
+    border: none;
+    color: var(--ink-soft);
+    padding: 8px 4px;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+  }
+
+  .tab.active{ color: var(--ink); border-bottom-color: var(--eugene); }
+
+  .chart-panel{
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    padding: 18px 10px 6px;
+  }
+
+  .chart-panel .panel-top{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 0 12px 12px;
+  }
+
+  .legend-inline{
+    display:flex;
+    gap:16px;
+    flex-wrap: wrap;
+    font-family:'IBM Plex Mono', monospace;
+    font-size: 12px;
+    color: var(--ink-soft);
+  }
+
+  .legend-inline span{ display:flex; align-items:center; gap:6px; }
+
+  #grass-chart{ width:100%; height: 440px; }
+  #other-chart{ width:100%; height: 380px; }
+
+  .loading{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height: 300px;
+    color: var(--ink-soft);
+    font-family:'IBM Plex Mono', monospace;
+    font-size: 13px;
+  }
+
+  footer{
+    margin-top: 56px;
+    padding-top: 20px;
+    border-top: 1px solid var(--line);
+    font-size: 12.5px;
+    color: var(--ink-soft);
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  footer a{ color: var(--portland); }
+
+  @media (max-width: 720px){
+    .snapshot{ grid-template-columns: 1fr; }
+    header.hero{ padding: 40px 16px 32px; }
+    #grass-chart{ height: 360px; }
+    #other-chart{ height: 320px; }
+    .section-head{ align-items: flex-start; }
+  }
+
+  @media (prefers-reduced-motion: reduce){
+    html{ scroll-behavior: auto; }
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <canvas id="pollen-canvas"></canvas>
+  <div class="hero-inner">
+    <p class="eyebrow">National Allergy Bureau · Live Station Data</p>
+    <h1>Pollen Watch</h1>
+    <p class="hero-sub">Daily grass, tree, weed, and mold counts across the Willamette Valley and Puget Sound corridor — pulled straight from Portland, Eugene, and Seattle monitoring stations.</p>
+
+    <div class="snapshot" id="snapshot-cards">
+      <div class="card"><div class="loading" style="height:auto;padding:20px 0;">Loading…</div></div>
+      <div class="card"><div class="loading" style="height:auto;padding:20px 0;">Loading…</div></div>
+      <div class="card"><div class="loading" style="height:auto;padding:20px 0;">Loading…</div></div>
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <section id="grass-section">
+    <div class="section-head">
+      <div>
+        <h2>Grass pollen, over time</h2>
+        <p class="section-note">Grains per cubic meter of air, by station. Drag to zoom, hover for detail, double-click to reset.</p>
+      </div>
+      <div class="controls" id="grass-range-controls">
+        <button class="btn" data-range="7">7 days</button>
+        <button class="btn" data-range="30">30 days</button>
+        <button class="btn" data-range="365">1 year</button>
+        <button class="btn active" data-range="all">All</button>
+      </div>
+    </div>
+    <div class="chart-panel">
+      <div class="panel-top">
+        <div class="legend-inline">
+          <span><i class="dot" style="background:var(--portland)"></i>Portland</span>
+          <span><i class="dot" style="background:var(--eugene)"></i>Eugene</span>
+          <span><i class="dot" style="background:var(--seattle)"></i>Seattle</span>
+        </div>
+      </div>
+      <div id="grass-chart"><div class="loading">Fetching station data…</div></div>
+    </div>
+  </section>
+
+  <section id="other-section">
+    <div class="section-head">
+      <div>
+        <h2>Other allergens</h2>
+        <p class="section-note">Same three stations, same interactions — switch categories below.</p>
+      </div>
+      <div class="controls" id="other-range-controls">
+        <button class="btn" data-range="7">7 days</button>
+        <button class="btn" data-range="30">30 days</button>
+        <button class="btn" data-range="365">1 year</button>
+        <button class="btn active" data-range="all">All</button>
+      </div>
+    </div>
+    <div class="chart-panel">
+      <div class="panel-top">
+        <div class="tabs" id="category-tabs">
+          <button class="tab active" data-cat="tree">Tree</button>
+          <button class="tab" data-cat="weed">Weed</button>
+          <button class="tab" data-cat="mold">Mold</button>
+        </div>
+        <div class="legend-inline">
+          <span><i class="dot" style="background:var(--portland)"></i>Portland</span>
+          <span><i class="dot" style="background:var(--eugene)"></i>Eugene</span>
+          <span><i class="dot" style="background:var(--seattle)"></i>Seattle</span>
+        </div>
+      </div>
+      <div id="other-chart"><div class="loading">Fetching station data…</div></div>
+    </div>
+  </section>
+
+  <footer>
+    <span>Source data: American Academy of Allergy, Asthma &amp; Immunology, National Allergy Bureau.</span>
+    <span id="updated-label"></span>
+  </footer>
+
+</div>
+
+<script>
+/* ---------------------------------------------------------
+   Config
+--------------------------------------------------------- */
+const SOURCES = {
+  Portland: { url: 'https://raw.githubusercontent.com/swing3/pollen_tracker/refs/heads/main/portland.csv', color: '#2f6e4e' },
+  Eugene:   { url: 'https://raw.githubusercontent.com/swing3/pollen_tracker/refs/heads/main/eugene.csv',   color: '#c98a2b' },
+  Seattle:  { url: 'https://raw.githubusercontent.com/swing3/pollen_tracker/refs/heads/main/seattle.csv',  color: '#3e6e8e' }
+};
+
+const LEVEL_COLORS = {
+  'Not Present': 'var(--level-none)',
+  'Low': 'var(--level-low)',
+  'Medium': 'var(--level-medium)',
+  'High': 'var(--level-high)',
+  'Very High': 'var(--level-veryhigh)'
+};
+
+let STATION_DATA = {}; // { Portland: [{date, tree_total, tree_level, ...}, ...] }
+
+/* ---------------------------------------------------------
+   Ambient pollen particle canvas (header signature element)
+--------------------------------------------------------- */
+(function initParticles(){
+  const canvas = document.getElementById('pollen-canvas');
+  const ctx = canvas.getContext('2d');
+  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  let w, h, particles = [];
+
+  function resize(){
+    w = canvas.width = canvas.offsetWidth * devicePixelRatio;
+    h = canvas.height = canvas.offsetHeight * devicePixelRatio;
+  }
+
+  function makeParticles(){
+    const count = Math.max(18, Math.floor((w * h) / 90000));
+    particles = Array.from({length: count}, () => ({
+      x: Math.random() * w,
+      y: Math.random() * h,
+      r: (Math.random() * 1.8 + 0.6) * devicePixelRatio,
+      vy: (Math.random() * 0.12 + 0.04) * devicePixelRatio,
+      vx: (Math.random() - 0.5) * 0.06 * devicePixelRatio,
+      o: Math.random() * 0.5 + 0.15
+    }));
+  }
+
+  function draw(){
+    ctx.clearRect(0, 0, w, h);
+    particles.forEach(p => {
+      ctx.beginPath();
+      ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+      ctx.fillStyle = `rgba(224, 178, 61, ${p.o})`;
+      ctx.fill();
+      if(!reduceMotion){
+        p.y += p.vy; p.x += p.vx;
+        if(p.y > h) { p.y = -5; p.x = Math.random() * w; }
+      }
+    });
+    if(!reduceMotion) requestAnimationFrame(draw);
+  }
+
+  window.addEventListener('resize', () => { resize(); makeParticles(); });
+  resize(); makeParticles(); draw();
+})();
+
+/* ---------------------------------------------------------
+   Data loading
+--------------------------------------------------------- */
+function loadCSV(name, url){
+  return new Promise((resolve, reject) => {
+    Papa.parse(url, {
+      download: true,
+      header: true,
+      dynamicTyping: true,
+      skipEmptyLines: true,
+      complete: (results) => {
+        const rows = results.data
+          .filter(r => r.date)
+          .map(r => ({ ...r, _d: new Date(r.date + 'T00:00:00') }))
+          .sort((a, b) => a._d - b._d);
+        resolve({ name, rows });
+      },
+      error: reject
+    });
+  });
+}
+
+Promise.all(Object.entries(SOURCES).map(([name, cfg]) => loadCSV(name, cfg.url)))
+  .then(results => {
+    results.forEach(r => { STATION_DATA[r.name] = r.rows; });
+    renderSnapshotCards();
+    renderGrassChart('all');
+    renderOtherChart('tree', 'all');
+    setUpdatedLabel();
+  })
+  .catch(err => {
+    document.getElementById('grass-chart').innerHTML =
+      '<div class="loading">Could not load station data. Check that the CSV URLs are reachable.</div>';
+    console.error(err);
+  });
+
+function setUpdatedLabel(){
+  let maxDate = null;
+  Object.values(STATION_DATA).forEach(rows => {
+    if(rows.length){
+      const d = rows[rows.length - 1]._d;
+      if(!maxDate || d > maxDate) maxDate = d;
+    }
+  });
+  if(maxDate){
+    document.getElementById('updated-label').textContent =
+      'Most recent reading: ' + maxDate.toISOString().slice(0,10);
+  }
+}
+
+/* ---------------------------------------------------------
+   Snapshot cards
+--------------------------------------------------------- */
+function renderSnapshotCards(){
+  const container = document.getElementById('snapshot-cards');
+  container.innerHTML = '';
+
+  Object.entries(SOURCES).forEach(([name, cfg]) => {
+    const rows = STATION_DATA[name];
+    const latest = rows[rows.length - 1];
+    if(!latest){ return; }
+
+    const level = latest.grass_level || 'Not Present';
+    const badgeColor = LEVEL_COLORS[level] || 'var(--level-none)';
+    const species = latest.top_grass_species ? latest.top_grass_species.split(';')[0].trim() : '—';
+
+    const card = document.createElement('div');
+    card.className = 'card';
+    card.innerHTML = `
+      <p class="station-name"><i class="dot" style="background:${cfg.color}"></i>${name}</p>
+      <p class="grass-value">${Math.round(latest.grass_total || 0)} <span class="grass-unit">grains/m³</span></p>
+      <span class="badge" style="background:${badgeColor}">${level}</span>
+      <p class="meta"><strong>${latest.date}</strong><br>${species}${latest.weather_notes ? ' · ' + latest.weather_notes : ''}</p>
+    `;
+    container.appendChild(card);
+  });
+}
+
+/* ---------------------------------------------------------
+   Grass chart (hero chart)
+--------------------------------------------------------- */
+let grassPlotted = false;
+
+function makeTraces(field, levelField, speciesField){
+  return Object.entries(SOURCES).map(([name, cfg]) => {
+    const rows = STATION_DATA[name];
+    return {
+      x: rows.map(r => r.date),
+      y: rows.map(r => r[field]),
+      customdata: rows.map(r => [r[levelField] || 'Not Present', (r[speciesField] || '').split(';')[0].trim() || '—']),
+      name: name,
+      mode: 'lines',
+      type: 'scattergl',
+      line: { color: cfg.color, width: 1.8 },
+      connectgaps: false,
+      hovertemplate: '<b>%{x}</b><br>%{y} grains/m³ · %{customdata[0]}<br><i>%{customdata[1]}</i><extra>' + name + '</extra>'
+    };
+  });
+}
+
+function baseLayout(yTitle){
+  return {
+    margin: { l: 48, r: 16, t: 8, b: 36 },
+    font: { family: 'IBM Plex Sans, sans-serif', size: 12, color: '#57685b' },
+    xaxis: {
+      type: 'date',
+      gridcolor: '#e6ebe3',
+      showline: true,
+      linecolor: '#d8e0d5',
+      rangeslider: { visible: false }
+    },
+    yaxis: {
+      title: { text: yTitle, font: { size: 11 } },
+      gridcolor: '#eef1ec',
+      zeroline: false
+    },
+    hovermode: 'x unified',
+    hoverlabel: { bgcolor: '#1e2b22', font: { color: '#eef2ec', family: 'IBM Plex Mono, monospace', size: 11 } },
+    plot_bgcolor: 'rgba(0,0,0,0)',
+    paper_bgcolor: 'rgba(0,0,0,0)',
+    showlegend: false
+  };
+}
+
+function getRangeForDays(days){
+  let maxDate = null;
+  Object.values(STATION_DATA).forEach(rows => {
+    if(rows.length){
+      const d = rows[rows.length - 1]._d;
+      if(!maxDate || d > maxDate) maxDate = d;
+    }
+  });
+  if(!maxDate) return null;
+  const start = new Date(maxDate);
+  start.setDate(start.getDate() - days);
+  return [start.toISOString().slice(0,10), maxDate.toISOString().slice(0,10)];
+}
+
+function renderGrassChart(rangeKey){
+  const traces = makeTraces('grass_total', 'grass_level', 'top_grass_species');
+  const layout = baseLayout('Grains / m³');
+  if(rangeKey !== 'all'){
+    const range = getRangeForDays(parseInt(rangeKey, 10));
+    if(range) layout.xaxis.range = range;
+  }
+  Plotly.newPlot('grass-chart', traces, layout, { responsive: true, displaylogo: false, modeBarButtonsToRemove: ['lasso2d','select2d'] });
+}
+
+const CATEGORY_FIELDS = {
+  tree: { total: 'tree_total', level: 'tree_level', species: 'top_tree_species' },
+  weed: { total: 'weed_total', level: 'weed_level', species: 'top_weed_species' },
+  mold: { total: 'mold_total', level: 'mold_level', species: 'top_mold_species' }
+};
+
+let currentCategory = 'tree';
+
+function renderOtherChart(cat, rangeKey){
+  const f = CATEGORY_FIELDS[cat];
+  const traces = makeTraces(f.total, f.level, f.species);
+  const layout = baseLayout('Grains / m³');
+  if(rangeKey !== 'all'){
+    const range = getRangeForDays(parseInt(rangeKey, 10));
+    if(range) layout.xaxis.range = range;
+  }
+  Plotly.newPlot('other-chart', traces, layout, { responsive: true, displaylogo: false, modeBarButtonsToRemove: ['lasso2d','select2d'] });
+}
+
+/* ---------------------------------------------------------
+   Controls
+--------------------------------------------------------- */
+document.getElementById('grass-range-controls').addEventListener('click', (e) => {
+  const btn = e.target.closest('.btn');
+  if(!btn) return;
+  document.querySelectorAll('#grass-range-controls .btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  renderGrassChart(btn.dataset.range);
+});
+
+let currentOtherRange = 'all';
+document.getElementById('other-range-controls').addEventListener('click', (e) => {
+  const btn = e.target.closest('.btn');
+  if(!btn) return;
+  document.querySelectorAll('#other-range-controls .btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  currentOtherRange = btn.dataset.range;
+  renderOtherChart(currentCategory, currentOtherRange);
+});
+
+document.getElementById('category-tabs').addEventListener('click', (e) => {
+  const tab = e.target.closest('.tab');
+  if(!tab) return;
+  document.querySelectorAll('#category-tabs .tab').forEach(t => t.classList.remove('active'));
+  tab.classList.add('active');
+  currentCategory = tab.dataset.cat;
+  renderOtherChart(currentCategory, currentOtherRange);
+});
+</script>
+
+</body>
+</html>
