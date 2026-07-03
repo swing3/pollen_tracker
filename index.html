@@ -7,8 +7,32 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/papaparse/5.4.1/papaparse.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/2.35.2/plotly.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/2.35.2/plotly.min.js" onerror="window.__plotlyFallback && window.__plotlyFallback()"></script>
+<script>
+  // If cdnjs is blocked (common on managed/corporate networks), try other CDNs in order.
+  window.__plotlyFallback = function(){
+    const mirrors = [
+      'https://cdn.plot.ly/plotly-2.35.2.min.js',
+      'https://cdn.jsdelivr.net/npm/plotly.js-dist@2.35.2/plotly.min.js',
+      'https://unpkg.com/plotly.js-dist@2.35.2/plotly.min.js'
+    ];
+    function tryNext(i){
+      if(i >= mirrors.length){
+        document.addEventListener('DOMContentLoaded', () => {
+          const el = document.getElementById('grass-chart');
+          if(el) el.innerHTML = '<div class="loading">Charting library blocked by this network. Try a different network, or ask IT to allow cdn.plot.ly, cdn.jsdelivr.net, or unpkg.com.</div>';
+        });
+        return;
+      }
+      const s = document.createElement('script');
+      s.src = mirrors[i];
+      s.onload = () => { if(window.initPollenApp) window.initPollenApp(); };
+      s.onerror = () => tryNext(i + 1);
+      document.head.appendChild(s);
+    }
+    tryNext(0);
+  };
+</script>
 <style>
   :root{
     --bg: #eef2ec;
@@ -445,40 +469,88 @@ let STATION_DATA = {}; // { Portland: [{date, tree_total, tree_level, ...}, ...]
 })();
 
 /* ---------------------------------------------------------
-   Data loading
+   Minimal CSV parser (no external library needed)
+   Handles quoted fields, embedded commas, and doubled quotes.
 --------------------------------------------------------- */
-function loadCSV(name, url){
-  return new Promise((resolve, reject) => {
-    Papa.parse(url, {
-      download: true,
-      header: true,
-      dynamicTyping: true,
-      skipEmptyLines: true,
-      complete: (results) => {
-        const rows = results.data
-          .filter(r => r.date)
-          .map(r => ({ ...r, _d: new Date(r.date + 'T00:00:00') }))
-          .sort((a, b) => a._d - b._d);
-        resolve({ name, rows });
-      },
-      error: reject
+function parseCSV(text){
+  const rows = [];
+  let row = [], field = '', inQuotes = false;
+  text = text.replace(/\r\n/g, '\n');
+
+  for(let i = 0; i < text.length; i++){
+    const c = text[i];
+    if(inQuotes){
+      if(c === '"'){
+        if(text[i+1] === '"'){ field += '"'; i++; }
+        else { inQuotes = false; }
+      } else {
+        field += c;
+      }
+    } else {
+      if(c === '"'){ inQuotes = true; }
+      else if(c === ','){ row.push(field); field = ''; }
+      else if(c === '\n'){ row.push(field); rows.push(row); row = []; field = ''; }
+      else { field += c; }
+    }
+  }
+  if(field.length || row.length){ row.push(field); rows.push(row); }
+
+  const header = rows.shift();
+  return rows
+    .filter(r => r.length === header.length && r.some(v => v !== ''))
+    .map(r => {
+      const obj = {};
+      header.forEach((h, idx) => {
+        const v = r[idx];
+        // mimic dynamicTyping: numeric-looking strings become numbers
+        obj[h] = (v !== '' && !isNaN(v)) ? parseFloat(v) : v;
+      });
+      return obj;
     });
-  });
 }
 
-Promise.all(Object.entries(SOURCES).map(([name, cfg]) => loadCSV(name, cfg.url)))
-  .then(results => {
-    results.forEach(r => { STATION_DATA[r.name] = r.rows; });
-    renderSnapshotCards();
-    renderGrassChart('all');
-    renderOtherChart('tree', 'all');
-    setUpdatedLabel();
-  })
-  .catch(err => {
-    document.getElementById('grass-chart').innerHTML =
-      '<div class="loading">Could not load station data. Check that the CSV URLs are reachable.</div>';
-    console.error(err);
-  });
+function loadCSV(name, url){
+  return fetch(url)
+    .then(resp => {
+      if(!resp.ok) throw new Error(`${name}: HTTP ${resp.status} fetching CSV`);
+      return resp.text();
+    })
+    .then(text => {
+      const parsed = parseCSV(text);
+      const rows = parsed
+        .filter(r => r.date)
+        .map(r => ({ ...r, _d: new Date(r.date + 'T00:00:00') }))
+        .sort((a, b) => a._d - b._d);
+      return { name, rows };
+    });
+}
+
+let appInitialized = false;
+window.initPollenApp = function(){
+  if(appInitialized) return;
+  if(typeof Plotly === 'undefined') return; // not ready yet
+  appInitialized = true;
+
+  Promise.all(Object.entries(SOURCES).map(([name, cfg]) => loadCSV(name, cfg.url)))
+    .then(results => {
+      results.forEach(r => { STATION_DATA[r.name] = r.rows; });
+      renderSnapshotCards();
+      renderGrassChart('all');
+      renderOtherChart('tree', 'all');
+      setUpdatedLabel();
+    })
+    .catch(err => {
+      document.getElementById('grass-chart').innerHTML =
+        '<div class="loading">Could not load station data: ' + err.message + '</div>';
+      console.error(err);
+    });
+};
+
+// If Plotly already loaded synchronously (normal case), start now.
+// Otherwise the CDN fallback loader (see <head>) will call initPollenApp once it succeeds.
+if(typeof Plotly !== 'undefined'){
+  window.initPollenApp();
+}
 
 function setUpdatedLabel(){
   let maxDate = null;
